@@ -1,0 +1,7 @@
+*
+!question-audio/
+!question-audio/**/
+question-audio/generated/
+question-audio/generated/**
+!question-audio/**/*.wav
+!.gitignore

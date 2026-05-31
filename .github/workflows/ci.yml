@@ -1,0 +1,82 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    name: Test and build
+    runs-on: ubuntu-latest
+    env:
+      APP_ENV: testing
+      DB_CONNECTION: sqlite
+      DB_DATABASE: ":memory:"
+      CACHE_STORE: array
+      SESSION_DRIVER: array
+      QUEUE_CONNECTION: sync
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v5
+
+      - name: Setup PHP
+        uses: shivammathur/setup-php@v2
+        with:
+          php-version: '8.4'
+          extensions: bcmath, ctype, curl, dom, fileinfo, filter, gd, intl, mbstring, openssl, pcre, pcntl, pdo_sqlite, sqlite3, tokenizer, xml, zip
+          coverage: none
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v5
+        with:
+          node-version: 22
+          cache: npm
+
+      - name: Install PHP dependencies
+        run: composer install --no-interaction --prefer-dist --no-progress
+
+      - name: Audit PHP runtime dependencies
+        run: composer audit --locked --no-dev
+
+      - name: Install frontend dependencies
+        run: npm ci
+
+      - name: Audit frontend dependencies
+        run: npm audit --audit-level=high
+
+      - name: Prepare Laravel
+        run: |
+          cp .env.example .env
+          php artisan key:generate
+          php artisan config:clear
+
+      - name: Check PHP style
+        run: composer test:lint
+
+      - name: Build frontend
+        run: npm run build
+
+      - name: Run PHP tests
+        run: |
+          set +e
+          php artisan test --colors=never --compact 2>&1 | tee /tmp/php-test.log
+          test_status=${PIPESTATUS[0]}
+
+          if [ "$test_status" -ne 0 ]; then
+            echo "::group::PHP test failure output"
+            tail -n 120 /tmp/php-test.log
+            echo "::endgroup::"
+
+            failure_tail="$(tail -n 80 /tmp/php-test.log)"
+            failure_tail="${failure_tail//'%'/'%25'}"
+            failure_tail="${failure_tail//$'\n'/'%0A'}"
+            failure_tail="${failure_tail//$'\r'/'%0D'}"
+            echo "::error file=.github/workflows/ci.yml,title=PHP tests failed::$failure_tail"
+          fi
+
+          exit "$test_status"

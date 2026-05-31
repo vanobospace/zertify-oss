@@ -1,0 +1,2841 @@
+{
+    "version": 1,
+    "exams": [
+        {
+            "slug": "telc-b2",
+            "name": "B2 Allgemein",
+            "level": "B2"
+        }
+    ],
+    "modules": [
+        {
+            "exam_slug": "telc-b2",
+            "slug": "hoeren-teil-1",
+            "name": "Hören Teil 1",
+            "type": "listening",
+            "default_points": "1.5"
+        },
+        {
+            "exam_slug": "telc-b2",
+            "slug": "hoeren-teil-2",
+            "name": "Hören Teil 2",
+            "type": "listening",
+            "default_points": "1.5"
+        },
+        {
+            "exam_slug": "telc-b2",
+            "slug": "hoeren-teil-3",
+            "name": "Hören Teil 3",
+            "type": "listening",
+            "default_points": "1.5"
+        },
+        {
+            "exam_slug": "telc-b2",
+            "slug": "lesen-teil-1",
+            "name": "Lesen Teil 1",
+            "type": "reading",
+            "default_points": "1.5"
+        },
+        {
+            "exam_slug": "telc-b2",
+            "slug": "lesen-teil-2",
+            "name": "Lesen Teil 2",
+            "type": "reading",
+            "default_points": "1.5"
+        },
+        {
+            "exam_slug": "telc-b2",
+            "slug": "lesen-teil-3",
+            "name": "Lesen Teil 3",
+            "type": "reading",
+            "default_points": "1.5"
+        },
+        {
+            "exam_slug": "telc-b2",
+            "slug": "sprachbausteine-teil-1",
+            "name": "Sprachbausteine Teil 1",
+            "type": "gap_fill",
+            "default_points": "1.5"
+        },
+        {
+            "exam_slug": "telc-b2",
+            "slug": "sprachbausteine-teil-2",
+            "name": "Sprachbausteine Teil 2",
+            "type": "gap_fill",
+            "default_points": "1.5"
+        }
+    ],
+    "question_generation_themes": [
+        {
+            "content_key": "theme.01kszn5m8kfrqzx5bnnk2yb3c3",
+            "exam_slug": "telc-b2",
+            "module_slug": "hoeren-teil-1",
+            "title": "Meldungen aus Stadt und Alltag",
+            "prompt_seed": "Neutral gelesene Nachrichtensendung mit fuenf klar getrennten Meldungen aus Stadtleben, Service oder Kultur. Keine Dialoge, nur eine Stimme.",
+            "source_label": "Curated B2 Allgemein listening catalog",
+            "source_url": null,
+            "notes": null,
+            "status": "approved",
+            "is_active": true,
+            "sort_order": 10
+        },
+        {
+            "content_key": "theme.01kszn5m8sb5kaetbs426vc228",
+            "exam_slug": "telc-b2",
+            "module_slug": "hoeren-teil-1",
+            "title": "Regionalnachrichten",
+            "prompt_seed": "Sachliche Regionalnachrichtensendung mit genau fuenf klar getrennten Informationspunkten und einer neutralen Sprecherstimme.",
+            "source_label": "Curated B2 Allgemein listening catalog",
+            "source_url": null,
+            "notes": null,
+            "status": "approved",
+            "is_active": true,
+            "sort_order": 20
+        },
+        {
+            "content_key": "theme.01kszn5m649cw8rqnkazkgfm4s",
+            "exam_slug": "telc-b2",
+            "module_slug": "sprachbausteine-teil-1",
+            "title": "Beschwerde ueber einen mangelhaften Sprachkurs",
+            "prompt_seed": "Halbformelle E-Mail mit einer konkreten Beschwerde, sachlichem Ton, Bitte um Loesung und Bezug auf Alltag oder Weiterbildung.",
+            "source_label": "Curated B2 Allgemein theme catalog",
+            "source_url": null,
+            "notes": null,
+            "status": "approved",
+            "is_active": true,
+            "sort_order": 10
+        },
+        {
+            "content_key": "theme.01kszn5m6bhkcekcgzhx70akec",
+            "exam_slug": "telc-b2",
+            "module_slug": "sprachbausteine-teil-1",
+            "title": "Anfrage zu einem Weiterbildungsseminar",
+            "prompt_seed": "Halbformelle Anfrage per E-Mail zu Organisation, Teilnahmebedingungen, Kosten und Nutzen eines Seminars oder Kurses.",
+            "source_label": "Curated B2 Allgemein theme catalog",
+            "source_url": null,
+            "notes": null,
+            "status": "approved",
+            "is_active": true,
+            "sort_order": 20
+        },
+        {
+            "content_key": "theme.01kszn5m6jxs032mf7n1vfjj4t",
+            "exam_slug": "telc-b2",
+            "module_slug": "sprachbausteine-teil-1",
+            "title": "Reklamation einer verspaeteten Onlinebestellung",
+            "prompt_seed": "Realistische Reklamationsmail zu Lieferung, Kundenservice, Rueckerstattung oder Ersatz in einem alltagsnahen Kontext.",
+            "source_label": "Curated B2 Allgemein theme catalog",
+            "source_url": null,
+            "notes": null,
+            "status": "approved",
+            "is_active": true,
+            "sort_order": 30
+        },
+        {
+            "content_key": "theme.01kszn5m6syt9102rwrt7cynty",
+            "exam_slug": "telc-b2",
+            "module_slug": "sprachbausteine-teil-1",
+            "title": "Terminverschiebung fuer ein Bewerbungsgespraech",
+            "prompt_seed": "Halbformelle E-Mail mit Begruendung fuer eine Terminveraenderung, Hoeflichkeit, Alternativvorschlaegen und Bitte um Bestaetigung.",
+            "source_label": "Curated B2 Allgemein theme catalog",
+            "source_url": null,
+            "notes": null,
+            "status": "approved",
+            "is_active": true,
+            "sort_order": 40
+        },
+        {
+            "content_key": "theme.01kszn5m6z3t2741xj0hxrnxft",
+            "exam_slug": "telc-b2",
+            "module_slug": "sprachbausteine-teil-1",
+            "title": "Rueckfrage zu einer Wohnungsausschreibung",
+            "prompt_seed": "Nachricht an Vermieter oder Hausverwaltung mit Rueckfragen zu Lage, Mietbedingungen, Besichtigung und persoenlicher Situation.",
+            "source_label": "Curated B2 Allgemein theme catalog",
+            "source_url": null,
+            "notes": null,
+            "status": "approved",
+            "is_active": true,
+            "sort_order": 50
+        },
+        {
+            "content_key": "theme.01kszn5m757g2hmg493sc1mh2n",
+            "exam_slug": "telc-b2",
+            "module_slug": "sprachbausteine-teil-1",
+            "title": "Feedback zu einem Freiwilligenprojekt",
+            "prompt_seed": "Persoenliche, aber strukturierte E-Mail mit Rueckmeldung zu Organisation, Erfahrungen, Verbesserungsvorschlaegen und Motivation.",
+            "source_label": "Curated B2 Allgemein theme catalog",
+            "source_url": null,
+            "notes": null,
+            "status": "approved",
+            "is_active": true,
+            "sort_order": 60
+        },
+        {
+            "content_key": "theme.01kszn5m7be67v8yx324r0fepr",
+            "exam_slug": "telc-b2",
+            "module_slug": "sprachbausteine-teil-2",
+            "title": "Digitalisierung im Alltag",
+            "prompt_seed": "Sachtext von allgemeinem Interesse ueber Chancen und Probleme digitaler Gewohnheiten im Alltag, mit mehreren Perspektiven.",
+            "source_label": "Curated B2 Allgemein theme catalog",
+            "source_url": null,
+            "notes": null,
+            "status": "approved",
+            "is_active": true,
+            "sort_order": 10
+        },
+        {
+            "content_key": "theme.01kszn5m7h1xkxfecqckcynfc7",
+            "exam_slug": "telc-b2",
+            "module_slug": "sprachbausteine-teil-2",
+            "title": "Homeoffice und neue Arbeitsmodelle",
+            "prompt_seed": "Magazinartiger Sachtext ueber Veraenderungen der Arbeitswelt, Vor- und Nachteile flexibler Modelle und gesellschaftliche Folgen.",
+            "source_label": "Curated B2 Allgemein theme catalog",
+            "source_url": null,
+            "notes": null,
+            "status": "approved",
+            "is_active": true,
+            "sort_order": 20
+        },
+        {
+            "content_key": "theme.01kszn5m7q4cb9rva4san7y62d",
+            "exam_slug": "telc-b2",
+            "module_slug": "sprachbausteine-teil-2",
+            "title": "Klimaschutz im privaten Leben",
+            "prompt_seed": "Sachtext ueber individuelle und gesellschaftliche Verantwortung beim Klimaschutz mit konkreten Beispielen und Gegenpositionen.",
+            "source_label": "Curated B2 Allgemein theme catalog",
+            "source_url": null,
+            "notes": null,
+            "status": "approved",
+            "is_active": true,
+            "sort_order": 30
+        },
+        {
+            "content_key": "theme.01kszn5m7xn5yw2nrn3q949qh9",
+            "exam_slug": "telc-b2",
+            "module_slug": "sprachbausteine-teil-2",
+            "title": "Gesundes Leben in der Stadt",
+            "prompt_seed": "Allgemeinverstaendlicher Text ueber Bewegung, Stress, Erholung und Rahmenbedingungen fuer Gesundheit in urbanen Raeumen.",
+            "source_label": "Curated B2 Allgemein theme catalog",
+            "source_url": null,
+            "notes": null,
+            "status": "approved",
+            "is_active": true,
+            "sort_order": 40
+        },
+        {
+            "content_key": "theme.01kszn5m847awzwwjerp5n8qqd",
+            "exam_slug": "telc-b2",
+            "module_slug": "sprachbausteine-teil-2",
+            "title": "Soziale Medien und oeffentliche Meinung",
+            "prompt_seed": "Sachtext ueber Einfluss sozialer Medien auf Information, Diskussionen, Meinungsbildung und Verantwortung der Nutzer.",
+            "source_label": "Curated B2 Allgemein theme catalog",
+            "source_url": null,
+            "notes": null,
+            "status": "approved",
+            "is_active": true,
+            "sort_order": 50
+        },
+        {
+            "content_key": "theme.01kszn5m8d87eq75wq51025wrs",
+            "exam_slug": "telc-b2",
+            "module_slug": "sprachbausteine-teil-2",
+            "title": "Lebenslanges Lernen",
+            "prompt_seed": "Sachtext ueber Weiterbildung, berufliche Veraenderung, Motivation Erwachsener und Bedeutung neuer Kompetenzen.",
+            "source_label": "Curated B2 Allgemein theme catalog",
+            "source_url": null,
+            "notes": null,
+            "status": "approved",
+            "is_active": true,
+            "sort_order": 60
+        }
+    ],
+    "questions": [
+        {
+            "seed_key": null,
+            "content_key": "question.01kszn5m9kr6akb85j902rx9k0",
+            "exam_slug": "telc-b2",
+            "module_slug": "sprachbausteine-teil-1",
+            "topic": "Beschwerde: Mangelhafter Online-Sprachkurs",
+            "format": "per_gap",
+            "difficulty": "medium",
+            "content": {
+                "text": "Sehr geehrte Damen und Herren,\n\nhiermit wende ich mich an Sie, um mich über erhebliche Mängel des Online-Sprachkurses Deutsch B2 zu beschweren, den ich vor zwei Monaten bei Ihrem Sprachinstitut {{gap_1}} habe. Bei meiner Anmeldung war ich von der ausführlichen Kursbeschreibung überzeugt, in der ausdrücklich {{gap_2}}, dass alle Teilnehmer täglich persönliche Rückmeldungen von qualifizierten Lehrkräften erhalten würden.\n\nZu meinem großen {{gap_3}} musste ich jedoch gleich in der ersten Kurswoche feststellen, dass meine schriftlichen Aufgaben tagelang unkorrigiert blieben. Auf insgesamt vier E-Mails an den Kundendienst habe ich bis heute keine einzige Antwort {{gap_4}}. Darüber hinaus brach die Lernplattform mehrmals täglich zusammen, {{gap_5}} ich wichtige Unterrichtseinheiten verpasste und im Lernfortschritt deutlich zurückblieb. Bei diesen Problemen handelt es sich keinesfalls {{gap_6}} Einzelfälle, sondern um ein durchgehendes technisches Versagen Ihres Systems.\n\nDa ich {{gap_7}} diesen Kurs mehrere Hundert Euro bezahlt habe, halte ich eine Entschädigung für mehr als gerechtfertigt. Ich fordere Sie {{gap_8}} auf, mir bis zum Ende des laufenden Monats entweder eine anteilige Rückerstattung oder einen kostenfreien Ersatzkurs anzubieten. Ich gehe davon {{gap_9}}, dass Sie meinem berechtigten Anliegen nachkommen werden.\n\nSollte ich bis dahin keine zufriedenstellende Antwort erhalten, behalte ich mir ausdrücklich vor, die Verbraucherzentrale zu {{gap_10}} und entsprechende Bewertungen in einschlägigen Portalen zu veröffentlichen.\n\nMit freundlichen Grüßen\nKatharina Richter",
+                "options": {
+                    "gap_1": [
+                        "gebucht",
+                        "gemacht",
+                        "begonnen"
+                    ],
+                    "gap_2": [
+                        "hieß es",
+                        "stand es",
+                        "schrieb es"
+                    ],
+                    "gap_3": [
+                        "Bedauern",
+                        "Glück",
+                        "Erstaunen"
+                    ],
+                    "gap_4": [
+                        "erhalten",
+                        "geschickt",
+                        "geschrieben"
+                    ],
+                    "gap_5": [
+                        "sodass",
+                        "obwohl",
+                        "denn"
+                    ],
+                    "gap_6": [
+                        "um",
+                        "von",
+                        "über"
+                    ],
+                    "gap_7": [
+                        "für",
+                        "von",
+                        "wegen"
+                    ],
+                    "gap_8": [
+                        "daher",
+                        "trotzdem",
+                        "zwar"
+                    ],
+                    "gap_9": [
+                        "aus",
+                        "ein",
+                        "ab"
+                    ],
+                    "gap_10": [
+                        "informieren",
+                        "kontaktieren",
+                        "anrufen"
+                    ]
+                },
+                "correct": {
+                    "gap_1": "gebucht",
+                    "gap_2": "hieß es",
+                    "gap_3": "Bedauern",
+                    "gap_4": "erhalten",
+                    "gap_5": "sodass",
+                    "gap_6": "um",
+                    "gap_7": "für",
+                    "gap_8": "daher",
+                    "gap_9": "aus",
+                    "gap_10": "informieren"
+                },
+                "explanation": {
+                    "gap_1": {
+                        "answer": "gebucht",
+                        "rule_type": "Feste Verbindung",
+                        "reason": "feste Kollokation.",
+                        "pattern": "Einen Kurs buchen",
+                        "contrast": "„machen\" ist umgangssprachlich.",
+                        "example": ""
+                    },
+                    "gap_2": {
+                        "answer": "hieß es",
+                        "rule_type": "Feste Wendung",
+                        "reason": "feste Redewendung für schriftliche und mündliche Aussagen.",
+                        "pattern": "Es hieß, dass",
+                        "contrast": "",
+                        "example": ""
+                    },
+                    "gap_3": {
+                        "answer": "Bedauern",
+                        "rule_type": "Grammatik",
+                        "reason": "B2-Formulierung in Beschwerdebriefen.",
+                        "pattern": "Zu meinem Bedauern",
+                        "contrast": "",
+                        "example": ""
+                    },
+                    "gap_4": {
+                        "answer": "erhalten",
+                        "rule_type": "Grammatik",
+                        "reason": "formeller als „bekommen\".",
+                        "pattern": "Eine Antwort erhalten",
+                        "contrast": "„geschickt\" wäre falsches Passiv.",
+                        "example": ""
+                    },
+                    "gap_5": {
+                        "answer": "sodass",
+                        "rule_type": "Konjunktion",
+                        "reason": "drückt direkte Konsequenz aus. Verbletztstellung im Nebensatz.",
+                        "pattern": "Folgekonjunktion",
+                        "contrast": "",
+                        "example": ""
+                    },
+                    "gap_6": {
+                        "answer": "um",
+                        "rule_type": "Verb mit Präposition",
+                        "reason": "festes Verb-Präposition-Paar.",
+                        "pattern": "Sich handeln um (Akkusativ)",
+                        "contrast": "",
+                        "example": ""
+                    },
+                    "gap_7": {
+                        "answer": "für",
+                        "rule_type": "Präposition",
+                        "reason": "Präposition „für\" + Akkusativ.",
+                        "pattern": "Für etwas bezahlen",
+                        "contrast": "",
+                        "example": ""
+                    },
+                    "gap_8": {
+                        "answer": "daher",
+                        "rule_type": "Adverb",
+                        "reason": "logische Schlussfolgerung, Verbzweitstellung.",
+                        "pattern": "Kausaladverb",
+                        "contrast": "",
+                        "example": ""
+                    },
+                    "gap_9": {
+                        "answer": "aus",
+                        "rule_type": "Feste Wendung",
+                        "reason": "trennbares Verb (gehe...aus), feste Redewendung.",
+                        "pattern": "Davon ausgehen",
+                        "contrast": "",
+                        "example": ""
+                    },
+                    "gap_10": {
+                        "answer": "informieren",
+                        "rule_type": "Grammatik",
+                        "reason": "formeller als „kontaktieren\" oder „anrufen\".",
+                        "pattern": "Jemanden informieren",
+                        "contrast": "",
+                        "example": ""
+                    }
+                }
+            },
+            "points": 1,
+            "order": 10,
+            "is_active": true,
+            "status": "published",
+            "generation_mode": "manual",
+            "source_label": "Internal Zertify seed set",
+            "source_url": null,
+            "source_notes": null,
+            "audio_source_type": null,
+            "audio_external_url": null,
+            "audio_voice_preset": "news_female",
+            "audio_style_preset": "clean",
+            "audio_asset": null
+        },
+        {
+            "seed_key": null,
+            "content_key": "question.01kszn5m9vw64x5yvvvhhg2pj4",
+            "exam_slug": "telc-b2",
+            "module_slug": "sprachbausteine-teil-1",
+            "topic": "Anfrage: Praktikum in Marketingagentur",
+            "format": "per_gap",
+            "difficulty": "medium",
+            "content": {
+                "text": "Sehr geehrte Frau Müller,\n\nmit großem Interesse habe ich Ihre Stellenanzeige {{gap_1}} ein Praktikum im Bereich Marketing auf Ihrer Website entdeckt. Da ich mich zurzeit im vierten Semester meines Bachelorstudiums der Betriebswirtschaftslehre an der Universität Mannheim befinde, bin ich aktiv auf der Suche nach einer Möglichkeit, praktische Erfahrungen in einem innovativen Unternehmen wie Ihrem zu sammeln.\n\nIch interessiere mich {{gap_2}} besonders für den Bereich des digitalen Marketings, da ich in diesem Feld sowohl meine Bachelorarbeit als auch meinen späteren Berufseinstieg plane. Im Laufe meines Studiums habe ich umfassende theoretische Kenntnisse über Kampagnenplanung, Marktforschung und Social-Media-Strategien aufgebaut. Darüber hinaus verfüge ich bereits {{gap_3}} erste praktische Erfahrungen, die ich während eines Nebenjobs in einer kleinen Werbeagentur {{gap_4}} habe. Dort war ich unter anderem für die Pflege von Social-Media-Kanälen und die Analyse von Nutzerdaten {{gap_5}}.\n\nDarf ich Sie noch um einige Informationen bitten? Mich würde interessieren, wie lange ein Praktikum bei Ihnen {{gap_6}} dauern muss und {{gap_7}} eine finanzielle Vergütung vorgesehen ist. Da ich meinen Lebensunterhalt selbst finanziere, wäre dies ein wichtiger {{gap_8}} bei meiner Entscheidung.\n\nIm Anhang finden Sie meinen Lebenslauf {{gap_9}} aktuelle Arbeitszeugnisse. Über eine positive Rückmeldung {{gap_10}} ich mich sehr freuen.\n\nMit freundlichen Grüßen\nLaura Weber",
+                "options": {
+                    "gap_1": [
+                        "für",
+                        "über",
+                        "zu"
+                    ],
+                    "gap_2": [
+                        "daher",
+                        "jedoch",
+                        "zwar"
+                    ],
+                    "gap_3": [
+                        "über",
+                        "von",
+                        "an"
+                    ],
+                    "gap_4": [
+                        "gesammelt",
+                        "gemacht",
+                        "gewonnen"
+                    ],
+                    "gap_5": [
+                        "zuständig",
+                        "beschäftigt",
+                        "tätig"
+                    ],
+                    "gap_6": [
+                        "mindestens",
+                        "höchstens",
+                        "ungefähr"
+                    ],
+                    "gap_7": [
+                        "ob",
+                        "dass",
+                        "weil"
+                    ],
+                    "gap_8": [
+                        "Faktor",
+                        "Punkt",
+                        "Aspekt"
+                    ],
+                    "gap_9": [
+                        "sowie",
+                        "oder",
+                        "aber"
+                    ],
+                    "gap_10": [
+                        "würde",
+                        "werde",
+                        "hätte"
+                    ]
+                },
+                "correct": {
+                    "gap_1": "für",
+                    "gap_2": "daher",
+                    "gap_3": "über",
+                    "gap_4": "gesammelt",
+                    "gap_5": "zuständig",
+                    "gap_6": "mindestens",
+                    "gap_7": "ob",
+                    "gap_8": "Faktor",
+                    "gap_9": "sowie",
+                    "gap_10": "würde"
+                },
+                "explanation": {
+                    "gap_1": {
+                        "answer": "für",
+                        "rule_type": "Präposition",
+                        "reason": "Präposition „für\" + Akkusativ.",
+                        "pattern": "Stellenanzeige für ein Praktikum",
+                        "contrast": "",
+                        "example": ""
+                    },
+                    "gap_2": {
+                        "answer": "daher",
+                        "rule_type": "Adverb",
+                        "reason": "logische Folge — weil ich BWL studiere, interessiere ich mich daher für Marketing.",
+                        "pattern": "Kausaladverb",
+                        "contrast": "",
+                        "example": ""
+                    },
+                    "gap_3": {
+                        "answer": "über",
+                        "rule_type": "Verb mit Präposition",
+                        "reason": "festes Verb-Präposition-Paar.",
+                        "pattern": "Verfügen über (Akkusativ)",
+                        "contrast": "",
+                        "example": ""
+                    },
+                    "gap_4": {
+                        "answer": "gesammelt",
+                        "rule_type": "Feste Verbindung",
+                        "reason": "feste Kollokation.",
+                        "pattern": "Erfahrungen sammeln",
+                        "contrast": "„machen\" ist umgangssprachlich.",
+                        "example": ""
+                    },
+                    "gap_5": {
+                        "answer": "zuständig",
+                        "rule_type": "Präposition",
+                        "reason": "Adjektiv mit fester Präposition „für\".",
+                        "pattern": "Zuständig sein für",
+                        "contrast": "",
+                        "example": ""
+                    },
+                    "gap_6": {
+                        "answer": "mindestens",
+                        "rule_type": "Grammatik",
+                        "reason": "Untere Grenze.",
+                        "pattern": "",
+                        "contrast": "„höchstens\" wäre die obere Grenze.",
+                        "example": ""
+                    },
+                    "gap_7": {
+                        "answer": "ob",
+                        "rule_type": "Grammatik",
+                        "reason": "„ob eine Vergütung vorgesehen ist\".",
+                        "pattern": "Indirekter Fragesatz (Ja/Nein-Frage)",
+                        "contrast": "",
+                        "example": ""
+                    },
+                    "gap_8": {
+                        "answer": "Faktor",
+                        "rule_type": "Feste Verbindung",
+                        "reason": "Nomen in fester Kollokation.",
+                        "pattern": "Ein wichtiger Faktor",
+                        "contrast": "",
+                        "example": ""
+                    },
+                    "gap_9": {
+                        "answer": "sowie",
+                        "rule_type": "Konjunktion",
+                        "reason": "Formelle additive Konjunktion.",
+                        "pattern": "",
+                        "contrast": "„oder\" wäre exklusiv.",
+                        "example": ""
+                    },
+                    "gap_10": {
+                        "answer": "würde",
+                        "rule_type": "Konjunktiv II",
+                        "reason": "würde + Infinitiv.",
+                        "pattern": "Konjunktiv II für höfliche Aussagen und Wünsche",
+                        "contrast": "",
+                        "example": ""
+                    }
+                }
+            },
+            "points": 1,
+            "order": 20,
+            "is_active": true,
+            "status": "published",
+            "generation_mode": "manual",
+            "source_label": "Internal Zertify seed set",
+            "source_url": null,
+            "source_notes": null,
+            "audio_source_type": null,
+            "audio_external_url": null,
+            "audio_voice_preset": "news_female",
+            "audio_style_preset": "clean",
+            "audio_asset": null
+        },
+        {
+            "seed_key": null,
+            "content_key": "question.01kszn5ma49rbx43hv63xm1386",
+            "exam_slug": "telc-b2",
+            "module_slug": "sprachbausteine-teil-1",
+            "topic": "Kündigung: Fitnessstudio-Mitgliedschaft",
+            "format": "per_gap",
+            "difficulty": "medium",
+            "content": {
+                "text": "Sehr geehrte Damen und Herren,\n\nhiermit kündige ich meine Mitgliedschaft in Ihrem Fitnessstudio mit der Mitgliedsnummer 47821 {{gap_1}} zum nächstmöglichen Termin. Ich bitte Sie, mir die Kündigung schriftlich zu {{gap_2}} und mir den genauen letzten Gültigkeitstag meiner Mitgliedschaft mitzuteilen.\n\nDer Hauptgrund für meine Entscheidung liegt in der zunehmend schlechten Qualität der angebotenen Dienstleistungen. Trotz der hohen monatlichen Beiträge, die ich seit über drei Jahren pünktlich entrichtet habe, entsprechen die Bedingungen im Studio schon lange nicht mehr {{gap_3}} dem Standard, den ich zu Beginn meiner Mitgliedschaft vorgefunden habe. Mehrere Trainingsgeräte sind seit Wochen defekt und wurden bisher nicht {{gap_4}}. Das Personal zeigt sich {{gap_5}} Beschwerden gegenüber leider wenig hilfsbereit, was die Situation für die Mitglieder noch unangenehmer macht.\n\nZusätzlich haben die Gruppentrainingskurse, die ursprünglich ein zentrales Merkmal des Angebots waren, in letzter Zeit stark {{gap_6}}. Viele Kurse wurden ersatzlos gestrichen, {{gap_7}} wir als Mitglieder nicht rechtzeitig informiert wurden. Dies stellt aus meiner Sicht eine wesentliche Verschlechterung des vereinbarten Leistungsumfangs dar.\n\nIch {{gap_8}} Sie außerdem darauf hin, dass ich für den Zeitraum der nachgewiesenen Mängel eine anteilige Rückerstattung meiner Beiträge für angemessen halte. Über eine kulante Regelung {{gap_9}} ich mich freuen. Sollte keine Einigung {{gap_10}} kommen, werde ich rechtliche Schritte prüfen.\n\nMit freundlichen Grüßen\nMarkus Sommer",
+                "options": {
+                    "gap_1": [
+                        "fristgerecht",
+                        "sofort",
+                        "umgehend"
+                    ],
+                    "gap_2": [
+                        "bestätigen",
+                        "senden",
+                        "mitteilen"
+                    ],
+                    "gap_3": [
+                        "annähernd",
+                        "völlig",
+                        "kaum"
+                    ],
+                    "gap_4": [
+                        "repariert",
+                        "erneuert",
+                        "geprüft"
+                    ],
+                    "gap_5": [
+                        "berechtigten",
+                        "häufigen",
+                        "schriftlichen"
+                    ],
+                    "gap_6": [
+                        "abgenommen",
+                        "reduziert",
+                        "verändert"
+                    ],
+                    "gap_7": [
+                        "wobei",
+                        "obwohl",
+                        "weil"
+                    ],
+                    "gap_8": [
+                        "weise",
+                        "bitte",
+                        "fordere"
+                    ],
+                    "gap_9": [
+                        "würde",
+                        "werde",
+                        "wollte"
+                    ],
+                    "gap_10": [
+                        "zustande",
+                        "heraus",
+                        "infrage"
+                    ]
+                },
+                "correct": {
+                    "gap_1": "fristgerecht",
+                    "gap_2": "bestätigen",
+                    "gap_3": "annähernd",
+                    "gap_4": "repariert",
+                    "gap_5": "berechtigten",
+                    "gap_6": "abgenommen",
+                    "gap_7": "wobei",
+                    "gap_8": "weise",
+                    "gap_9": "würde",
+                    "gap_10": "zustande"
+                },
+                "explanation": {
+                    "gap_1": {
+                        "answer": "fristgerecht",
+                        "rule_type": "Adverb",
+                        "reason": "Adverb.",
+                        "pattern": "Fristgerecht kündigen",
+                        "contrast": "„sofort\" wäre außerordentliche Kündigung.",
+                        "example": ""
+                    },
+                    "gap_2": {
+                        "answer": "bestätigen",
+                        "rule_type": "Feste Verbindung",
+                        "reason": "feste Kollokation mit Kündigung.",
+                        "pattern": "Etwas bestätigen",
+                        "contrast": "„mitteilen\" würde einen anderen Satzbau erfordern.",
+                        "example": ""
+                    },
+                    "gap_3": {
+                        "answer": "annähernd",
+                        "rule_type": "Adverb",
+                        "reason": "Gradpartikel in Negation, verstärkt den Kontrast.",
+                        "pattern": "Nicht annähernd",
+                        "contrast": "",
+                        "example": ""
+                    },
+                    "gap_4": {
+                        "answer": "repariert",
+                        "rule_type": "Feste Verbindung",
+                        "reason": "logische Kollokation.",
+                        "pattern": "Defekte Geräte reparieren",
+                        "contrast": "",
+                        "example": ""
+                    },
+                    "gap_5": {
+                        "answer": "berechtigten",
+                        "rule_type": "Grammatik",
+                        "reason": "Adjektiv.",
+                        "pattern": "Berechtigte Beschwerden",
+                        "contrast": "„häufige\" passt inhaltlich nicht als Komplement.",
+                        "example": ""
+                    },
+                    "gap_6": {
+                        "answer": "abgenommen",
+                        "rule_type": "Grammatik",
+                        "reason": "trennbares Verb.",
+                        "pattern": "Stark abnehmen",
+                        "contrast": "„reduziert\" wäre Partizip, nicht finit.",
+                        "example": ""
+                    },
+                    "gap_7": {
+                        "answer": "wobei",
+                        "rule_type": "Relativadverb",
+                        "reason": "drückt Begleitumstand aus.",
+                        "pattern": "Relativadverb",
+                        "contrast": "„obwohl\" wäre Konzession.",
+                        "example": ""
+                    },
+                    "gap_8": {
+                        "answer": "weise",
+                        "rule_type": "Grammatik",
+                        "reason": "trennbares Verb (ich weise...hin), feste Wendung in formellen Briefen.",
+                        "pattern": "Hinweisen auf",
+                        "contrast": "",
+                        "example": ""
+                    },
+                    "gap_9": {
+                        "answer": "würde",
+                        "rule_type": "Konjunktiv II",
+                        "reason": "würde + Infinitiv. „wollte\" ist weniger formell.",
+                        "pattern": "Konjunktiv II für höfliche Wünsche",
+                        "contrast": "",
+                        "example": ""
+                    },
+                    "gap_10": {
+                        "answer": "zustande",
+                        "rule_type": "Feste Wendung",
+                        "reason": "trennbares Verb in fester Redewendung.",
+                        "pattern": "Zustande kommen",
+                        "contrast": "„heraus\" und „infrage\" passen nicht.",
+                        "example": ""
+                    }
+                }
+            },
+            "points": 1,
+            "order": 30,
+            "is_active": true,
+            "status": "published",
+            "generation_mode": "manual",
+            "source_label": "Internal Zertify seed set",
+            "source_url": null,
+            "source_notes": null,
+            "audio_source_type": null,
+            "audio_external_url": null,
+            "audio_voice_preset": "news_female",
+            "audio_style_preset": "clean",
+            "audio_asset": null
+        },
+        {
+            "seed_key": null,
+            "content_key": "question.01kszn5magnbtq4vyvzn8642xq",
+            "exam_slug": "telc-b2",
+            "module_slug": "sprachbausteine-teil-1",
+            "topic": "Anfrage: Weiterbildungsseminar Buchhaltung",
+            "format": "per_gap",
+            "difficulty": "medium",
+            "content": {
+                "text": "Sehr geehrter Herr Dr. Fischer,\n\nüber das Weiterbildungsportal Ihrer Handelskammer bin ich {{gap_1}} auf Ihr zweitägiges Seminar \"Buchhaltung und Steuern für Selbstständige\" aufmerksam geworden. Da ich seit Kurzem als freiberuflicher Grafiker tätig bin und über keine kaufmännische Ausbildung verfüge, bin ich {{gap_2}} auf der Suche nach einer soliden Grundlage in diesen Bereichen.\n\nBevor ich mich {{gap_3}} anmelde, hätte ich einige Fragen, die mir bei meiner Entscheidung helfen würden. Zunächst würde mich interessieren, {{gap_4}} Vorkenntnisse für die Teilnahme am Seminar vorausgesetzt werden. Sind Grundkenntnisse in der doppelten Buchführung bereits notwendig, oder richtet sich das Seminar ausdrücklich auch {{gap_5}} absolute Anfänger? Außerdem wäre es hilfreich zu wissen, ob die Seminarunterlagen {{gap_6}} als digitale Dateien zur Verfügung gestellt werden, da ich keine Möglichkeit habe, umfangreiche Druckmaterialien aufzubewahren.\n\nEin weiterer Punkt betrifft die zeitliche {{gap_7}}: Das Seminar findet laut Ihrer Ankündigung am 14. und 15. Mai statt. Gibt es alternativ auch Termine {{gap_8}} Juni oder Juli, falls ich an den genannten Tagen verhindert sein sollte? Ich würde das Seminar {{gap_9}} sehr gerne im ersten Halbjahr absolvieren, da ich ab Herbst mit einer deutlich höheren Auftragslage rechne.\n\nÜber eine baldige Rückmeldung {{gap_10}} ich mich sehr freuen. Für eventuelle Rückfragen stehe ich Ihnen telefonisch jederzeit zur Verfügung.\n\nMit freundlichen Grüßen\nFabian Krause",
+                "options": {
+                    "gap_1": [
+                        "zufällig",
+                        "absichtlich",
+                        "gezielt"
+                    ],
+                    "gap_2": [
+                        "dringend",
+                        "kaum",
+                        "selten"
+                    ],
+                    "gap_3": [
+                        "verbindlich",
+                        "vorläufig",
+                        "offiziell"
+                    ],
+                    "gap_4": [
+                        "welche",
+                        "was",
+                        "wie"
+                    ],
+                    "gap_5": [
+                        "an",
+                        "für",
+                        "bei"
+                    ],
+                    "gap_6": [
+                        "ausschließlich",
+                        "ebenfalls",
+                        "normalerweise"
+                    ],
+                    "gap_7": [
+                        "Planung",
+                        "Gestaltung",
+                        "Einteilung"
+                    ],
+                    "gap_8": [
+                        "im",
+                        "in",
+                        "für"
+                    ],
+                    "gap_9": [
+                        "daher",
+                        "trotzdem",
+                        "dennoch"
+                    ],
+                    "gap_10": [
+                        "würde",
+                        "werde",
+                        "hätte"
+                    ]
+                },
+                "correct": {
+                    "gap_1": "zufällig",
+                    "gap_2": "dringend",
+                    "gap_3": "verbindlich",
+                    "gap_4": "welche",
+                    "gap_5": "an",
+                    "gap_6": "ausschließlich",
+                    "gap_7": "Planung",
+                    "gap_8": "im",
+                    "gap_9": "daher",
+                    "gap_10": "würde"
+                },
+                "explanation": {
+                    "gap_1": {
+                        "answer": "zufällig",
+                        "rule_type": "Adverb",
+                        "reason": "Adverb der Art und Weise.",
+                        "pattern": "Zufällig auf etwas aufmerksam werden",
+                        "contrast": "",
+                        "example": ""
+                    },
+                    "gap_2": {
+                        "answer": "dringend",
+                        "rule_type": "Adverb",
+                        "reason": "Gradadverb.",
+                        "pattern": "Dringend auf der Suche sein",
+                        "contrast": "„kaum\" wäre Negation.",
+                        "example": ""
+                    },
+                    "gap_3": {
+                        "answer": "verbindlich",
+                        "rule_type": "Adverb",
+                        "reason": "Adverb. „vorläufig\" bedeutet provisorisch.",
+                        "pattern": "Sich verbindlich anmelden",
+                        "contrast": "",
+                        "example": ""
+                    },
+                    "gap_4": {
+                        "answer": "welche",
+                        "rule_type": "Fragepronomen",
+                        "reason": "Fragepronomen für Plural-Nomen im Nominativ.",
+                        "pattern": "Welche Vorkenntnisse",
+                        "contrast": "",
+                        "example": ""
+                    },
+                    "gap_5": {
+                        "answer": "an",
+                        "rule_type": "Verb mit Präposition",
+                        "reason": "festes Verb-Präposition-Paar (richten an + Akkusativ).",
+                        "pattern": "Sich richten an",
+                        "contrast": "",
+                        "example": ""
+                    },
+                    "gap_6": {
+                        "answer": "ausschließlich",
+                        "rule_type": "Adverb",
+                        "reason": "Adverb der Einschränkung.",
+                        "pattern": "",
+                        "contrast": "„ebenfalls\" würde Zusatz bedeuten.",
+                        "example": ""
+                    },
+                    "gap_7": {
+                        "answer": "Planung",
+                        "rule_type": "Feste Verbindung",
+                        "reason": "Nomen in fester Kollokation mit „zeitlich\".",
+                        "pattern": "Zeitliche Planung",
+                        "contrast": "",
+                        "example": ""
+                    },
+                    "gap_8": {
+                        "answer": "im",
+                        "rule_type": "Präposition",
+                        "reason": "Präposition „im\" vor Monatsnamen (im + Dativ).",
+                        "pattern": "Im Juni/Juli",
+                        "contrast": "",
+                        "example": ""
+                    },
+                    "gap_9": {
+                        "answer": "daher",
+                        "rule_type": "Adverb",
+                        "reason": "logische Konsequenz — weil ich ab Herbst ausgelastet bin, möchte ich es daher im ersten Halbjahr.",
+                        "pattern": "Kausaladverb",
+                        "contrast": "",
+                        "example": ""
+                    },
+                    "gap_10": {
+                        "answer": "würde",
+                        "rule_type": "Konjunktiv II",
+                        "reason": "würde + Infinitiv.",
+                        "pattern": "Konjunktiv II für höfliche Wünsche und Anfragen",
+                        "contrast": "",
+                        "example": ""
+                    }
+                }
+            },
+            "points": 1,
+            "order": 40,
+            "is_active": true,
+            "status": "published",
+            "generation_mode": "manual",
+            "source_label": "Internal Zertify seed set",
+            "source_url": null,
+            "source_notes": null,
+            "audio_source_type": null,
+            "audio_external_url": null,
+            "audio_voice_preset": "news_female",
+            "audio_style_preset": "clean",
+            "audio_asset": null
+        },
+        {
+            "seed_key": null,
+            "content_key": "question.01kszn5mare9cht51v518h6yhk",
+            "exam_slug": "telc-b2",
+            "module_slug": "sprachbausteine-teil-1",
+            "topic": "Beschwerde: Verspätete Onlinebestellung",
+            "format": "per_gap",
+            "difficulty": "medium",
+            "content": {
+                "text": "Sehr geehrte Damen und Herren,\n\nüber Ihren Onlineshop habe ich am 3. März ein Paket mit Büromaterialien im Gesamtwert von 148 Euro bestellt. Laut der Auftragsbestätigung, die ich per E-Mail erhalten habe, sollte die Lieferung spätestens {{gap_1}} fünf Werktagen bei mir eingehen. Heute ist der 20. März, und das Paket ist bis {{gap_2}} nicht angekommen.\n\nIch habe Ihre Kundenhotline bereits dreimal angerufen und jedes Mal eine andere Auskunft erhalten. Zunächst wurde mir mitgeteilt, das Paket sei {{gap_3}} beim Versanddienstleister. Beim zweiten Anruf hieß es, das Paket sei verloren gegangen und werde neu verschickt. Beim dritten Gespräch {{gap_4}} man mir, ich solle noch einige Tage warten. Diese widersprüchlichen Informationen sind für mich absolut {{gap_5}} und zeugen von mangelnder Professionalität.\n\nDa ich die bestellten Materialien dringend für mein Büro benötige, fordere ich Sie {{gap_6}} auf, die Situation unverzüglich zu klären und mir das Paket innerhalb von 48 Stunden zuzustellen. Falls dies nicht {{gap_7}} ist, erwarte ich eine sofortige vollständige Rückerstattung des Kaufpreises auf mein Konto. Ich behalte mir {{gap_8}}, bei ausbleibender Reaktion eine Beschwerde bei der zuständigen Schlichtungsstelle einzureichen.\n\nBitte teilen Sie mir {{gap_9}} schriftlich mit, wie Sie in dieser Angelegenheit weiter vorgehen werden. Ich bitte um eine Antwort bis {{gap_10}} übermorgen.\n\nMit freundlichen Grüßen\nAnna Bergmann",
+                "options": {
+                    "gap_1": [
+                        "innerhalb",
+                        "binnen",
+                        "nach"
+                    ],
+                    "gap_2": [
+                        "dato",
+                        "heute",
+                        "jetzt"
+                    ],
+                    "gap_3": [
+                        "unterwegs",
+                        "verschickt",
+                        "verloren"
+                    ],
+                    "gap_4": [
+                        "riet",
+                        "sagte",
+                        "erklärte"
+                    ],
+                    "gap_5": [
+                        "inakzeptabel",
+                        "unangenehm",
+                        "seltsam"
+                    ],
+                    "gap_6": [
+                        "daher",
+                        "trotzdem",
+                        "jedoch"
+                    ],
+                    "gap_7": [
+                        "möglich",
+                        "machbar",
+                        "umsetzbar"
+                    ],
+                    "gap_8": [
+                        "vor",
+                        "ein",
+                        "an"
+                    ],
+                    "gap_9": [
+                        "umgehend",
+                        "baldmöglichst",
+                        "schriftlich"
+                    ],
+                    "gap_10": [
+                        "spätestens",
+                        "frühestens",
+                        "ungefähr"
+                    ]
+                },
+                "correct": {
+                    "gap_1": "innerhalb",
+                    "gap_2": "dato",
+                    "gap_3": "unterwegs",
+                    "gap_4": "riet",
+                    "gap_5": "inakzeptabel",
+                    "gap_6": "daher",
+                    "gap_7": "möglich",
+                    "gap_8": "vor",
+                    "gap_9": "umgehend",
+                    "gap_10": "spätestens"
+                },
+                "explanation": {
+                    "gap_1": {
+                        "answer": "innerhalb",
+                        "rule_type": "Präposition",
+                        "reason": "Präposition + Genitiv/Dativ.",
+                        "pattern": "Innerhalb von fünf Werktagen",
+                        "contrast": "„binnen\" ist veraltet.",
+                        "example": ""
+                    },
+                    "gap_2": {
+                        "answer": "dato",
+                        "rule_type": "Feste Wendung",
+                        "reason": "feste lateinische Redewendung in der Geschäftssprache.",
+                        "pattern": "Bis dato",
+                        "contrast": "",
+                        "example": ""
+                    },
+                    "gap_3": {
+                        "answer": "unterwegs",
+                        "rule_type": "Adverb",
+                        "reason": "Adverb.",
+                        "pattern": "Unterwegs sein",
+                        "contrast": "„verschickt\" wäre Partizip und passt syntaktisch nicht.",
+                        "example": ""
+                    },
+                    "gap_4": {
+                        "answer": "riet",
+                        "rule_type": "Grammatik",
+                        "reason": "Verb mit Dativ.",
+                        "pattern": "Jemandem raten",
+                        "contrast": "„sagte\" würde „dass\" erfordern.",
+                        "example": ""
+                    },
+                    "gap_5": {
+                        "answer": "inakzeptabel",
+                        "rule_type": "Grammatik",
+                        "reason": "Stärker als „unangenehm\", passt zum formellen Beschwerdebrief.",
+                        "pattern": "",
+                        "contrast": "",
+                        "example": ""
+                    },
+                    "gap_6": {
+                        "answer": "daher",
+                        "rule_type": "Adverb",
+                        "reason": "logische Konsequenz — weil das Paket fehlt, fordere ich daher...",
+                        "pattern": "Kausaladverb",
+                        "contrast": "",
+                        "example": ""
+                    },
+                    "gap_7": {
+                        "answer": "möglich",
+                        "rule_type": "Grammatik",
+                        "reason": "Adjektiv als Prädikativ.",
+                        "pattern": "Möglich sein",
+                        "contrast": "„machbar\" ist umgangssprachlicher.",
+                        "example": ""
+                    },
+                    "gap_8": {
+                        "answer": "vor",
+                        "rule_type": "Grammatik",
+                        "reason": "trennbares Verb (behalte...vor), feste Wendung.",
+                        "pattern": "Sich etwas vorbehalten",
+                        "contrast": "",
+                        "example": ""
+                    },
+                    "gap_9": {
+                        "answer": "umgehend",
+                        "rule_type": "Adverb",
+                        "reason": "Formelles Adverb in der Geschäftskorrespondenz.",
+                        "pattern": "",
+                        "contrast": "",
+                        "example": ""
+                    },
+                    "gap_10": {
+                        "answer": "spätestens",
+                        "rule_type": "Adverb",
+                        "reason": "Gradpartikel.",
+                        "pattern": "Spätestens bis",
+                        "contrast": "„frühestens\" wäre frühest möglicher Zeitpunkt.",
+                        "example": ""
+                    }
+                }
+            },
+            "points": 1,
+            "order": 50,
+            "is_active": true,
+            "status": "published",
+            "generation_mode": "manual",
+            "source_label": "Internal Zertify seed set",
+            "source_url": null,
+            "source_notes": null,
+            "audio_source_type": null,
+            "audio_external_url": null,
+            "audio_voice_preset": "news_female",
+            "audio_style_preset": "clean",
+            "audio_asset": null
+        },
+        {
+            "seed_key": null,
+            "content_key": "question.01kszn5mb95k9jd2c1qa95pzar",
+            "exam_slug": "telc-b2",
+            "module_slug": "sprachbausteine-teil-2",
+            "topic": "Gesundheit: Schlaf und Erholung",
+            "format": "shared_pool",
+            "difficulty": "medium",
+            "content": {
+                "format": "shared_pool",
+                "text": "Schlaf gilt als eine der wichtigsten Voraussetzungen für ein gesundes Leben – {{gap_1}} unterschätzen viele Menschen seine Bedeutung erheblich. Mediziner sind sich einig, {{gap_2}} ausreichender Schlaf eine entscheidende Rolle für die körperliche und geistige Regeneration spielt. Während des Tiefschlafs werden Wachstumshormone ausgeschüttet, das Immunsystem gestärkt und Gedächtnisinhalte gefestigt. Wer dauerhaft zu wenig schläft, riskiert langfristige Schäden am Immunsystem, {{gap_3}} Schlaf maßgeblich an der Reparatur körpereigener Zellen beteiligt ist. Experten empfehlen für Erwachsene sieben bis neun Stunden Schlaf pro Nacht, {{gap_4}} sich Gehirn und Körper vollständig erholen können. Kinder und Jugendliche benötigen sogar noch deutlich mehr Schlaf, da ihr Organismus sich intensiv in der Wachstumsphase befindet.\n\n{{gap_5}} zeigen aktuelle Untersuchungen deutlich, dass Schlafmangel unmittelbare Auswirkungen auf die kognitive Leistungsfähigkeit hat. Konzentrationsfähigkeit und Reaktionsvermögen nehmen bereits nach einer einzigen schlafarmen Nacht messbar ab, {{gap_6}} die Unfallgefahr im Straßenverkehr erheblich steigt. Besonders problematisch ist die zunehmende Schlafstörung durch digitale Medien: Das blaue Licht von Bildschirmen hemmt die Ausschüttung des Schlafhormons Melatonin, {{gap_7}} Einschlafen und Durchschlafen erheblich erschwert werden. Wer abends regelmäßig soziale Medien nutzt oder Serien schaut, schläft im Schnitt über eine Stunde weniger als Menschen ohne diese Gewohnheiten. Schlafexperten raten {{gap_8}}, alle Bildschirme mindestens eine Stunde vor dem Schlafen abzuschalten und stattdessen entspannende Aktivitäten wie Lesen oder leichte Dehnübungen zu bevorzugen.\n\nAuch die Schlafumgebung beeinflusst die Schlafqualität maßgeblich. Ein kühles, dunkles und ruhiges Schlafzimmer fördert tiefen und erholsamen Schlaf. Die Raumtemperatur sollte idealerweise zwischen 16 und 18 Grad Celsius liegen, da es bei Wärme schwerer fällt, in den Tiefschlaf zu gleiten. {{gap_9}} man auf einen regelmäßigen Schlaf-Wach-Rhythmus achtet, kann der Körper seinen natürlichen Biorhythmus stabilisieren. Kurze Mittagsschläfchen von zwanzig bis dreißig Minuten können {{gap_10}} die Leistungsfähigkeit am Nachmittag steigern, ohne den Nachtschlaf zu beeinträchtigen. Länger sollte man tagsüber jedoch nicht schlafen, da sonst der Tiefschlafbedarf in der Nacht sinkt.",
+                "options_pool": [
+                    "jedoch",
+                    "dass",
+                    "weil",
+                    "damit",
+                    "ebenfalls",
+                    "wodurch",
+                    "sodass",
+                    "daher",
+                    "wenn",
+                    "zudem",
+                    "obwohl",
+                    "denn",
+                    "ob",
+                    "wobei",
+                    "trotzdem"
+                ],
+                "correct": {
+                    "gap_1": "jedoch",
+                    "gap_2": "dass",
+                    "gap_3": "weil",
+                    "gap_4": "damit",
+                    "gap_5": "ebenfalls",
+                    "gap_6": "wodurch",
+                    "gap_7": "sodass",
+                    "gap_8": "daher",
+                    "gap_9": "wenn",
+                    "gap_10": "zudem"
+                },
+                "explanation": {
+                    "gap_1": {
+                        "answer": "jedoch",
+                        "rule_type": "Adverb",
+                        "reason": "leitet Gegensatz zum Vorherigen ein.",
+                        "pattern": "Adversatives Adverb mit Verbzweitstellung",
+                        "contrast": "",
+                        "example": ""
+                    },
+                    "gap_2": {
+                        "answer": "dass",
+                        "rule_type": "Konjunktion",
+                        "reason": "Konjunktion für Aussagesatz als Nebensatz, Verbletztstellung.",
+                        "pattern": "Einig sein, dass",
+                        "contrast": "",
+                        "example": ""
+                    },
+                    "gap_3": {
+                        "answer": "weil",
+                        "rule_type": "Konjunktion",
+                        "reason": "gibt den Grund an, Verbletztstellung.",
+                        "pattern": "Kausalkonjunktion",
+                        "contrast": "„denn\" würde Hauptsatz einleiten.",
+                        "example": ""
+                    },
+                    "gap_4": {
+                        "answer": "damit",
+                        "rule_type": "Konjunktion",
+                        "reason": "drückt den Zweck/die Absicht aus.",
+                        "pattern": "Finalkonjunktion",
+                        "contrast": "„sodass\" wäre Folge, nicht Zweck.",
+                        "example": ""
+                    },
+                    "gap_5": {
+                        "answer": "ebenfalls",
+                        "rule_type": "Adverb",
+                        "reason": "leitet weiteren Beleg ein.",
+                        "pattern": "Additives Adverb",
+                        "contrast": "",
+                        "example": ""
+                    },
+                    "gap_6": {
+                        "answer": "wodurch",
+                        "rule_type": "Relativadverb",
+                        "reason": "bezieht sich auf den gesamten Vordersatz.",
+                        "pattern": "Relativadverb",
+                        "contrast": "",
+                        "example": ""
+                    },
+                    "gap_7": {
+                        "answer": "sodass",
+                        "rule_type": "Konjunktion",
+                        "reason": "drückt direkte Folge aus.",
+                        "pattern": "Konsekutivkonjunktion",
+                        "contrast": "",
+                        "example": ""
+                    },
+                    "gap_8": {
+                        "answer": "daher",
+                        "rule_type": "Adverb",
+                        "reason": "logische Schlussfolgerung aus den Erkenntnissen.",
+                        "pattern": "Kausaladverb",
+                        "contrast": "",
+                        "example": ""
+                    },
+                    "gap_9": {
+                        "answer": "wenn",
+                        "rule_type": "Grammatik",
+                        "reason": "Bedingung für den Hauptsatz.",
+                        "pattern": "Konditionalsatz",
+                        "contrast": "",
+                        "example": ""
+                    },
+                    "gap_10": {
+                        "answer": "zudem",
+                        "rule_type": "Adverb",
+                        "reason": "ergänzt weiteren Vorteil.",
+                        "pattern": "Additives Adverb",
+                        "contrast": "",
+                        "example": ""
+                    }
+                }
+            },
+            "points": 1,
+            "order": 10,
+            "is_active": true,
+            "status": "published",
+            "generation_mode": "manual",
+            "source_label": "Internal Zertify seed set",
+            "source_url": null,
+            "source_notes": null,
+            "audio_source_type": null,
+            "audio_external_url": null,
+            "audio_voice_preset": "news_female",
+            "audio_style_preset": "clean",
+            "audio_asset": null
+        },
+        {
+            "seed_key": null,
+            "content_key": "question.01kszn5mbj0nxrwxfv8j9datq4",
+            "exam_slug": "telc-b2",
+            "module_slug": "sprachbausteine-teil-2",
+            "topic": "Klimawandel: Individuelle und kollektive Verantwortung",
+            "format": "shared_pool",
+            "difficulty": "medium",
+            "content": {
+                "format": "shared_pool",
+                "text": "Der Klimawandel stellt die größte globale Herausforderung unserer Zeit dar – {{gap_1}} sind sich nahezu alle Wissenschaftler einig. Die globale Durchschnittstemperatur ist seit der Industrialisierung um mehr als ein Grad Celsius gestiegen, {{gap_2}} gravierende Folgen wie häufigere Extremwetterereignisse, schmelzende Gletscher und steigende Meeresspiegel nach sich zieht. Bereits heute sind Küstenregionen in verschiedenen Teilen der Welt durch den Anstieg des Meeresspiegels akut bedroht. Regierungen weltweit haben sich im Pariser Klimaabkommen verpflichtet, die Erderwärmung auf deutlich unter zwei Grad zu begrenzen und die Treibhausgasemissionen drastisch zu reduzieren. {{gap_3}} die politischen Absichtserklärungen ambitioniert klingen, bleibt die praktische Umsetzung in vielen Ländern weit hinter den Erwartungen zurück.\n\nEine zentrale Frage ist, {{gap_4}} Einzelpersonen tatsächlich einen nennenswerten Beitrag zur Bekämpfung des Klimawandels leisten können. Kritiker argumentieren, dass die Hauptverantwortung bei der Industrie liegt, {{gap_5}} diese für den Großteil der weltweiten Treibhausgasemissionen verantwortlich ist. {{gap_6}} betonen andere Experten, dass kollektive Veränderungen im Konsumverhalten durchaus eine bedeutende Wirkung entfalten können. Wer {{gap_7}} auf Flugreisen verzichtet, weniger Fleisch konsumiert und öffentliche Verkehrsmittel nutzt, kann seinen persönlichen CO₂-Fußabdruck erheblich reduzieren. Studien zeigen, dass eine pflanzliche Ernährung den Treibhausgasausstoß einer Person um bis zu 73 Prozent senken kann.\n\n{{gap_8}} ist die soziale Dimension des Klimawandels nicht zu vernachlässigen: Ärmere Bevölkerungsschichten sind von den Folgen besonders stark betroffen, {{gap_9}} sie kaum Mittel haben, sich vor Extremwetterereignissen zu schützen oder in klimafreundlichere Technologien zu investieren. Besonders in Regionen, die von Landwirtschaft und Fischerei abhängig sind, hat der Klimawandel bereits jetzt katastrophale Folgen für die lokale Wirtschaft und die Lebensgrundlage der Menschen. Eine gerechte Klimapolitik muss {{gap_10}} soziale Ungleichheiten berücksichtigen und tragbare Lösungen für alle Bevölkerungsgruppen entwickeln. Nur durch eine Kombination aus technologischen Innovationen, politischen Maßnahmen und einem veränderten Konsumverhalten kann der Klimawandel langfristig wirksam eingedämmt werden. Die Verantwortung dafür liegt bei Regierungen, Unternehmen und jedem Einzelnen gleichermaßen.",
+                "options_pool": [
+                    "darin",
+                    "was",
+                    "obwohl",
+                    "ob",
+                    "da",
+                    "jedoch",
+                    "bewusst",
+                    "zudem",
+                    "weil",
+                    "daher",
+                    "darüber",
+                    "wobei",
+                    "denn",
+                    "wenn",
+                    "sodass"
+                ],
+                "correct": {
+                    "gap_1": "darin",
+                    "gap_2": "was",
+                    "gap_3": "obwohl",
+                    "gap_4": "ob",
+                    "gap_5": "da",
+                    "gap_6": "jedoch",
+                    "gap_7": "bewusst",
+                    "gap_8": "zudem",
+                    "gap_9": "weil",
+                    "gap_10": "daher"
+                },
+                "explanation": {
+                    "gap_1": {
+                        "answer": "darin",
+                        "rule_type": "Pronominaladverb",
+                        "reason": "Pronominaladverb als Vorausverweis auf folgende Aussage.",
+                        "pattern": "Darin sind sich alle einig",
+                        "contrast": "",
+                        "example": ""
+                    },
+                    "gap_2": {
+                        "answer": "was",
+                        "rule_type": "Relativpronomen",
+                        "reason": "bezieht sich auf den gesamten vorangegangenen Hauptsatz.",
+                        "pattern": "Relativpronomen",
+                        "contrast": "",
+                        "example": ""
+                    },
+                    "gap_3": {
+                        "answer": "obwohl",
+                        "rule_type": "Konjunktion",
+                        "reason": "Einräumung mit Gegenaussage im Hauptsatz.",
+                        "pattern": "Konzessive Konjunktion",
+                        "contrast": "",
+                        "example": ""
+                    },
+                    "gap_4": {
+                        "answer": "ob",
+                        "rule_type": "Grammatik",
+                        "reason": "Ja/Nein-Frage.",
+                        "pattern": "Leitet indirekten Fragesatz ein",
+                        "contrast": "",
+                        "example": ""
+                    },
+                    "gap_5": {
+                        "answer": "da",
+                        "rule_type": "Grammatik",
+                        "reason": "weniger betont als „weil\", häufig in der Schriftsprache.",
+                        "pattern": "Kausal",
+                        "contrast": "",
+                        "example": ""
+                    },
+                    "gap_6": {
+                        "answer": "jedoch",
+                        "rule_type": "Adverb",
+                        "reason": "leitet Gegenposition ein.",
+                        "pattern": "Adversatives Adverb",
+                        "contrast": "",
+                        "example": ""
+                    },
+                    "gap_7": {
+                        "answer": "bewusst",
+                        "rule_type": "Adverb",
+                        "reason": "Adverb der Absicht/Vorsätzlichkeit.",
+                        "pattern": "Bewusst auf etwas verzichten",
+                        "contrast": "",
+                        "example": ""
+                    },
+                    "gap_8": {
+                        "answer": "zudem",
+                        "rule_type": "Adverb",
+                        "reason": "fügt weiteren Aspekt hinzu.",
+                        "pattern": "Additives Adverb",
+                        "contrast": "",
+                        "example": ""
+                    },
+                    "gap_9": {
+                        "answer": "weil",
+                        "rule_type": "Konjunktion",
+                        "reason": "gibt den Grund an.",
+                        "pattern": "Kausalkonjunktion mit Verbletztstellung",
+                        "contrast": "",
+                        "example": ""
+                    },
+                    "gap_10": {
+                        "answer": "daher",
+                        "rule_type": "Adverb",
+                        "reason": "logische Konsequenz aus dem Vorherigen.",
+                        "pattern": "Kausaladverb",
+                        "contrast": "",
+                        "example": ""
+                    }
+                }
+            },
+            "points": 1,
+            "order": 20,
+            "is_active": true,
+            "status": "published",
+            "generation_mode": "manual",
+            "source_label": "Internal Zertify seed set",
+            "source_url": null,
+            "source_notes": null,
+            "audio_source_type": null,
+            "audio_external_url": null,
+            "audio_voice_preset": "news_female",
+            "audio_style_preset": "clean",
+            "audio_asset": null
+        },
+        {
+            "seed_key": null,
+            "content_key": "question.01kszn5mbv24c5h085nmzd9s4k",
+            "exam_slug": "telc-b2",
+            "module_slug": "sprachbausteine-teil-2",
+            "topic": "Digitalisierung im Bildungswesen",
+            "format": "shared_pool",
+            "difficulty": "medium",
+            "content": {
+                "format": "shared_pool",
+                "text": "Die Digitalisierung verändert das Bildungswesen grundlegend – eine Entwicklung, {{gap_1}} sich kein Schulsystem entziehen kann. Moderne Technologien bieten enorme Möglichkeiten: Lernplattformen ermöglichen individuell angepasstes Lernen, digitale Lehrmittel machen Unterricht anschaulicher, und Videokonferenzen erlauben eine ortsunabhängige Wissensvermittlung. Schülerinnen und Schüler können Lerninhalte in ihrem eigenen Tempo bearbeiten und sofort Feedback zu ihren Leistungen erhalten. Experten sind überzeugt, {{gap_2}} digitale Kompetenzen in der heutigen Berufswelt unverzichtbar sind und bereits in der Grundschule gezielt gefördert werden sollten. {{gap_3}} stellt der ungleiche Zugang zu digitalen Geräten und schnellem Internet eine erhebliche Herausforderung dar, {{gap_4}} er soziale Ungleichheiten im Bildungsbereich verschärfen kann. Schulen in einkommensschwachen Regionen haben oft weder ausreichende Geräte noch stabile Internetverbindungen.\n\nEin weiteres zentrales Problem ist die Qualität der digitalen Bildungsinhalte. Nicht jede App und nicht jede Plattform leistet tatsächlich einen pädagogischen Mehrwert. Lehrkräfte müssen {{gap_5}} in der Lage sein, digitale Werkzeuge kritisch zu beurteilen und sinnvoll in den Unterricht zu integrieren. Dies erfordert eine umfassende Ausbildung und regelmäßige Fortbildungsmaßnahmen, {{gap_6}} viele Schulen bisher noch nicht ausreichend anbieten. {{gap_7}} digitale Medien den Unterricht ergänzen, sollten grundlegende Fähigkeiten wie Lesen, Schreiben und kritisches Denken nicht vernachlässigt werden. Zahlreiche Pädagogen betonen, dass Technologie niemals den persönlichen Kontakt zwischen Lehrenden und Lernenden vollständig ersetzen kann.\n\nGleichzeitig birgt die Digitalisierung Risiken {{gap_8}} Datenschutz und digitale Sicherheit. Schülerdaten werden von kommerziellen Plattformen gesammelt und ausgewertet, {{gap_9}} erhebliche ethische Fragen aufwirft. Eltern und Schulbehörden sind zunehmend besorgt darüber, welche persönlichen Informationen Technologieunternehmen über minderjährige Nutzer speichern und verwenden dürfen. Untersuchungen zeigen, dass viele Lernplattformen Nutzerdaten an Dritte weitergeben, ohne dass Eltern oder Schüler davon wissen. {{gap_10}} stehen Bildungspolitiker vor der Aufgabe, klare gesetzliche Rahmenbedingungen zu schaffen, die Datenschutz und digitale Chancen gleichermaßen sicherstellen. Die Herausforderung besteht darin, den pädagogischen Nutzen digitaler Technologien voll auszuschöpfen, ohne dabei die Privatsphäre junger Nutzerinnen und Nutzer zu gefährden.",
+                "options_pool": [
+                    "der",
+                    "dass",
+                    "jedoch",
+                    "weil",
+                    "daher",
+                    "die",
+                    "obwohl",
+                    "wie",
+                    "was",
+                    "zudem",
+                    "denn",
+                    "wobei",
+                    "wenn",
+                    "damit",
+                    "sodass"
+                ],
+                "correct": {
+                    "gap_1": "der",
+                    "gap_2": "dass",
+                    "gap_3": "jedoch",
+                    "gap_4": "weil",
+                    "gap_5": "daher",
+                    "gap_6": "die",
+                    "gap_7": "obwohl",
+                    "gap_8": "wie",
+                    "gap_9": "was",
+                    "gap_10": "zudem"
+                },
+                "explanation": {
+                    "gap_1": {
+                        "answer": "der",
+                        "rule_type": "Relativpronomen",
+                        "reason": "eine Entwicklung, der (Dativ Feminin). „sich entziehen\" regiert den Dativ.",
+                        "pattern": "Relativpronomen",
+                        "contrast": "",
+                        "example": ""
+                    },
+                    "gap_2": {
+                        "answer": "dass",
+                        "rule_type": "Konjunktion",
+                        "reason": "Konjunktion für eingebetteten Aussagesatz.",
+                        "pattern": "Überzeugt sein, dass",
+                        "contrast": "",
+                        "example": ""
+                    },
+                    "gap_3": {
+                        "answer": "jedoch",
+                        "rule_type": "Adverb",
+                        "reason": "leitet Einschränkung nach positiver Aussage ein.",
+                        "pattern": "Adversatives Adverb",
+                        "contrast": "",
+                        "example": ""
+                    },
+                    "gap_4": {
+                        "answer": "weil",
+                        "rule_type": "Konjunktion",
+                        "reason": "gibt den Grund für die Herausforderung an.",
+                        "pattern": "Kausalkonjunktion",
+                        "contrast": "",
+                        "example": ""
+                    },
+                    "gap_5": {
+                        "answer": "daher",
+                        "rule_type": "Adverb",
+                        "reason": "Schlussfolgerung aus dem Vorherigen — wegen des Qualitätsproblems müssen Lehrkräfte daher...",
+                        "pattern": "Kausaladverb",
+                        "contrast": "",
+                        "example": ""
+                    },
+                    "gap_6": {
+                        "answer": "die",
+                        "rule_type": "Relativpronomen",
+                        "reason": "Fortbildungsmaßnahmen, die (Nominativ Plural, Subjekt des Relativsatzes).",
+                        "pattern": "Relativpronomen",
+                        "contrast": "",
+                        "example": ""
+                    },
+                    "gap_7": {
+                        "answer": "obwohl",
+                        "rule_type": "Grammatik",
+                        "reason": "auch wenn Medien helfen, sollte Grundlegendes nicht vernachlässigt werden.",
+                        "pattern": "Konzessiv",
+                        "contrast": "",
+                        "example": ""
+                    },
+                    "gap_8": {
+                        "answer": "wie",
+                        "rule_type": "Grammatik",
+                        "reason": "leitet Aufzählung von Beispielen ein.",
+                        "pattern": "Vergleichspartikel",
+                        "contrast": "",
+                        "example": ""
+                    },
+                    "gap_9": {
+                        "answer": "was",
+                        "rule_type": "Relativpronomen",
+                        "reason": "bezieht sich auf den gesamten vorangegangenen Hauptsatz.",
+                        "pattern": "Relativpronomen",
+                        "contrast": "",
+                        "example": ""
+                    },
+                    "gap_10": {
+                        "answer": "zudem",
+                        "rule_type": "Adverb",
+                        "reason": "führt weiteren Aspekt ein.",
+                        "pattern": "Additives Adverb",
+                        "contrast": "",
+                        "example": ""
+                    }
+                }
+            },
+            "points": 1,
+            "order": 30,
+            "is_active": true,
+            "status": "published",
+            "generation_mode": "manual",
+            "source_label": "Internal Zertify seed set",
+            "source_url": null,
+            "source_notes": null,
+            "audio_source_type": null,
+            "audio_external_url": null,
+            "audio_voice_preset": "news_female",
+            "audio_style_preset": "clean",
+            "audio_asset": null
+        },
+        {
+            "seed_key": null,
+            "content_key": "question.01kszn5mc4vnz8xtpe1h0tzmjm",
+            "exam_slug": "telc-b2",
+            "module_slug": "sprachbausteine-teil-2",
+            "topic": "Urbanisierung und Wohnungsnot",
+            "format": "shared_pool",
+            "difficulty": "medium",
+            "content": {
+                "format": "shared_pool",
+                "text": "Die Urbanisierung schreitet weltweit in einem Tempo voran, {{gap_1}} Stadtplaner und Politiker vor enorme Herausforderungen stellt. Immer mehr Menschen zieht es in die Städte, {{gap_2}} dort bessere Arbeitsmöglichkeiten, Bildungsangebote und Infrastruktur vorhanden sind. Laut aktuellen Prognosen werden bis 2050 rund siebzig Prozent der Weltbevölkerung in städtischen Gebieten leben – in Entwicklungsländern wird dieser Anteil sogar noch deutlich höher ausfallen. Dies führt zwangsläufig dazu, {{gap_3}} die Nachfrage nach bezahlbarem Wohnraum in Ballungsgebieten das Angebot bei Weitem übersteigt. Besonders in Großstädten wie Berlin, München oder Hamburg ist die Wohnungsnot {{gap_4}} ein dringendes gesellschaftliches Problem geworden, das breite Bevölkerungsschichten betrifft.\n\nDie Ursachen für die Wohnungskrise sind vielschichtig. Jahrzehntelange Vernachlässigung des sozialen Wohnungsbaus, steigende Bodenpreise und Spekulation mit Immobilien haben die Lage erheblich verschärft. In einigen deutschen Großstädten hat sich der Mietpreis in den letzten zehn Jahren nahezu verdoppelt. Hinzu kommt, dass viele Neubauprojekte aufgrund langwieriger Genehmigungsverfahren und gestiegener Baukosten scheitern oder stark verzögert werden. {{gap_5}} gehen Experten davon aus, dass ohne entschlossenes politisches Handeln keine nachhaltige Verbesserung zu erwarten ist. Mögliche Lösungsansätze umfassen eine stärkere staatliche Regulierung des Mietmarktes sowie gezielte Förderung des Neubaus von Sozialwohnungen. {{gap_6}} greifen Stadtentwicklung und Wohnungspolitik tief in bestehende Eigentumsrechte und Marktmechanismen ein, {{gap_7}} politische Mehrheiten für tiefgreifende Reformen schwer zu finden sind.\n\nNeben dem Wohnungsmarkt stellt die wachsende Bevölkerungsdichte {{gap_8}} die Verkehrsinfrastruktur vor ernste Probleme. Überlastete Straßen, Lärm und schlechte Luftqualität beeinträchtigen die Lebensqualität in dichten Stadtvierteln erheblich. Der öffentliche Nahverkehr muss massiv ausgebaut werden, {{gap_9}} Staus und Luftverschmutzung langfristig reduziert werden können. Stadtplaner setzen {{gap_10}} auf das Konzept der kompakten Stadt, die kurze Wege, gemischte Nutzung und hohe Lebensqualität bei geringem Flächenverbrauch vereint. Viele Experten sind der Meinung, dass auch die gezielte Entwicklung von Mittelstädten helfen könnte, den Druck auf Großstädte zu mindern und eine ausgewogenere regionale Bevölkerungsverteilung zu fördern.",
+                "options_pool": [
+                    "das",
+                    "weil",
+                    "dass",
+                    "bereits",
+                    "daher",
+                    "jedoch",
+                    "sodass",
+                    "zunehmend",
+                    "damit",
+                    "darum",
+                    "sowohl",
+                    "wobei",
+                    "wenn",
+                    "obwohl",
+                    "was"
+                ],
+                "correct": {
+                    "gap_1": "das",
+                    "gap_2": "weil",
+                    "gap_3": "dass",
+                    "gap_4": "bereits",
+                    "gap_5": "daher",
+                    "gap_6": "jedoch",
+                    "gap_7": "sodass",
+                    "gap_8": "zunehmend",
+                    "gap_9": "damit",
+                    "gap_10": "darum"
+                },
+                "explanation": {
+                    "gap_1": {
+                        "answer": "das",
+                        "rule_type": "Relativpronomen",
+                        "reason": "ein Tempo, das (Nominativ Neutrum, Subjekt des Relativsatzes).",
+                        "pattern": "Relativpronomen",
+                        "contrast": "",
+                        "example": ""
+                    },
+                    "gap_2": {
+                        "answer": "weil",
+                        "rule_type": "Konjunktion",
+                        "reason": "erklärt den Grund des Zuzugs.",
+                        "pattern": "Kausalkonjunktion mit Verbletztstellung",
+                        "contrast": "",
+                        "example": ""
+                    },
+                    "gap_3": {
+                        "answer": "dass",
+                        "rule_type": "Grammatik",
+                        "reason": "feste Konstruktion mit Objektsatz.",
+                        "pattern": "Dazu führen, dass",
+                        "contrast": "",
+                        "example": ""
+                    },
+                    "gap_4": {
+                        "answer": "bereits",
+                        "rule_type": "Adverb",
+                        "reason": "betont, dass die Wohnungsnot schon jetzt besteht.",
+                        "pattern": "Zeitliches Adverb",
+                        "contrast": "",
+                        "example": ""
+                    },
+                    "gap_5": {
+                        "answer": "daher",
+                        "rule_type": "Adverb",
+                        "reason": "Konsequenz aus der Vielschichtigkeit der Ursachen.",
+                        "pattern": "Kausaladverb",
+                        "contrast": "",
+                        "example": ""
+                    },
+                    "gap_6": {
+                        "answer": "jedoch",
+                        "rule_type": "Adverb",
+                        "reason": "leitet Einschränkung zu den Lösungsansätzen ein.",
+                        "pattern": "Adversatives Adverb",
+                        "contrast": "",
+                        "example": ""
+                    },
+                    "gap_7": {
+                        "answer": "sodass",
+                        "rule_type": "Konjunktion",
+                        "reason": "Folge aus den beschriebenen Eingriffen.",
+                        "pattern": "Konsekutivkonjunktion",
+                        "contrast": "",
+                        "example": ""
+                    },
+                    "gap_8": {
+                        "answer": "zunehmend",
+                        "rule_type": "Adverb",
+                        "reason": "beschreibt eine steigende Tendenz.",
+                        "pattern": "Gradpartikel",
+                        "contrast": "",
+                        "example": ""
+                    },
+                    "gap_9": {
+                        "answer": "damit",
+                        "rule_type": "Konjunktion",
+                        "reason": "drückt den Zweck des Ausbaus aus.",
+                        "pattern": "Finalkonjunktion",
+                        "contrast": "",
+                        "example": ""
+                    },
+                    "gap_10": {
+                        "answer": "darum",
+                        "rule_type": "Adverb",
+                        "reason": "Schlussfolgerung aus allen vorherigen Argumenten.",
+                        "pattern": "Kausaladverb",
+                        "contrast": "",
+                        "example": ""
+                    }
+                }
+            },
+            "points": 1,
+            "order": 40,
+            "is_active": true,
+            "status": "published",
+            "generation_mode": "manual",
+            "source_label": "Internal Zertify seed set",
+            "source_url": null,
+            "source_notes": null,
+            "audio_source_type": null,
+            "audio_external_url": null,
+            "audio_voice_preset": "news_female",
+            "audio_style_preset": "clean",
+            "audio_asset": null
+        },
+        {
+            "seed_key": null,
+            "content_key": "question.01kszn5mcejfvkwmahy2qz3jt6",
+            "exam_slug": "telc-b2",
+            "module_slug": "sprachbausteine-teil-2",
+            "topic": "Arbeitswelt im Wandel: Homeoffice und neue Modelle",
+            "format": "shared_pool",
+            "difficulty": "medium",
+            "content": {
+                "format": "shared_pool",
+                "text": "Die Arbeitswelt befindet sich in einem tiefgreifenden Wandel, {{gap_1}} durch die Digitalisierung und die Erfahrungen der Pandemie-Jahre stark beschleunigt wurde. Homeoffice, flexible Arbeitszeiten und ortsunabhängiges Arbeiten sind für viele Beschäftigte heute selbstverständlich – eine Entwicklung, {{gap_2}} noch vor einem Jahrzehnt kaum vorstellbar schien. Eine Umfrage aus dem Jahr 2023 ergab, dass mehr als sechzig Prozent der Büroangestellten mindestens zwei Tage pro Woche von zu Hause arbeiten möchten. Unternehmen, die flexiblere Arbeitsmodelle anbieten, haben laut aktuellen Studien deutliche Vorteile bei der Gewinnung qualifizierter Fachkräfte. Arbeitnehmer schätzen die bessere Vereinbarkeit von Beruf und Privatleben, {{gap_3}} Produktivität und Arbeitszufriedenheit nachweislich gesteigert werden können.\n\n{{gap_4}} bringt die neue Arbeitswelt auch erhebliche Herausforderungen mit sich. Die Grenzen zwischen Arbeit und Freizeit verschwimmen zunehmend, {{gap_5}} viele Beschäftigte Schwierigkeiten haben, nach Feierabend wirklich abzuschalten. Psychologen warnen vor einem Anstieg von Burnout und chronischen Erschöpfungszuständen, {{gap_6}} Unternehmen ihrer Fürsorgepflicht stärker nachkommen sollten. Ein weiteres Problem ist die soziale Isolation: Wer dauerhaft von zu Hause aus arbeitet, {{gap_7}} auf den informellen Austausch mit Kollegen verzichten, der für Kreativität, Innovation und Teamzusammenhalt unerlässlich ist. Regelmäßige gemeinsame Präsenztage können helfen, den Teamgeist zu stärken und das Gemeinschaftsgefühl zu fördern.\n\nAuch strukturelle Fragen sind noch nicht abschließend geklärt. {{gap_8}} sollen die Kosten für heimische Arbeitsplätze aufgeteilt werden? Wer trägt die Verantwortung für Arbeitssicherheit im Homeoffice? Darf ein Arbeitgeber Mitarbeiter verpflichten, ins Büro zu kommen, oder haben Arbeitnehmer ein Recht auf Homeoffice? In einigen Ländern, wie etwa Portugal und Spanien, wurden bereits Gesetze verabschiedet, die das Recht auf Nicht-Erreichbarkeit nach Feierabend regeln. Arbeitgeber und Gesetzgeber sind {{gap_9}} gefragt, klare und faire Regelungen zu schaffen. Gleichzeitig sollten Arbeitnehmer {{gap_10}} arbeiten, ihre eigenen Grenzen klar zu kommunizieren und eine gesunde Work-Life-Balance aktiv einzufordern. Die Zukunft der Arbeit wird letztlich davon abhängen, wie gut Flexibilität und Menschlichkeit miteinander in Einklang gebracht werden können.",
+                "options_pool": [
+                    "der",
+                    "was",
+                    "die",
+                    "jedoch",
+                    "wobei",
+                    "sodass",
+                    "weshalb",
+                    "daher",
+                    "muss",
+                    "wie",
+                    "wenn",
+                    "denn",
+                    "damit",
+                    "obwohl",
+                    "daran"
+                ],
+                "correct": {
+                    "gap_1": "der",
+                    "gap_2": "die",
+                    "gap_3": "wobei",
+                    "gap_4": "jedoch",
+                    "gap_5": "sodass",
+                    "gap_6": "weshalb",
+                    "gap_7": "muss",
+                    "gap_8": "wie",
+                    "gap_9": "daher",
+                    "gap_10": "daran"
+                },
+                "explanation": {
+                    "gap_1": {
+                        "answer": "der",
+                        "rule_type": "Relativpronomen",
+                        "reason": "ein Wandel, der (Nominativ Maskulin, Subjekt des Relativsatzes).",
+                        "pattern": "Relativpronomen",
+                        "contrast": "",
+                        "example": ""
+                    },
+                    "gap_2": {
+                        "answer": "die",
+                        "rule_type": "Relativpronomen",
+                        "reason": "eine Entwicklung, die (Nominativ Feminin, Subjekt des Relativsatzes).",
+                        "pattern": "Relativpronomen",
+                        "contrast": "",
+                        "example": ""
+                    },
+                    "gap_3": {
+                        "answer": "wobei",
+                        "rule_type": "Relativadverb",
+                        "reason": "drückt Begleitumstand aus.",
+                        "pattern": "Relativadverb",
+                        "contrast": "",
+                        "example": ""
+                    },
+                    "gap_4": {
+                        "answer": "jedoch",
+                        "rule_type": "Adverb",
+                        "reason": "leitet Gegenperspektive nach positiver Aussage ein.",
+                        "pattern": "Adversatives Adverb",
+                        "contrast": "",
+                        "example": ""
+                    },
+                    "gap_5": {
+                        "answer": "sodass",
+                        "rule_type": "Konjunktion",
+                        "reason": "Konsequenz aus dem Verschwimmen der Grenzen.",
+                        "pattern": "Konsekutivkonjunktion",
+                        "contrast": "",
+                        "example": ""
+                    },
+                    "gap_6": {
+                        "answer": "weshalb",
+                        "rule_type": "Relativadverb",
+                        "reason": "bezieht sich auf den gesamten Vordersatz.",
+                        "pattern": "Kausal-konsekutives Relativadverb",
+                        "contrast": "",
+                        "example": ""
+                    },
+                    "gap_7": {
+                        "answer": "muss",
+                        "rule_type": "Modalverb",
+                        "reason": "drückt Notwendigkeit/Unvermeidbarkeit aus.",
+                        "pattern": "Modalverb",
+                        "contrast": "",
+                        "example": ""
+                    },
+                    "gap_8": {
+                        "answer": "wie",
+                        "rule_type": "Grammatik",
+                        "reason": "wie sollen... aufgeteilt werden?",
+                        "pattern": "Leitet indirekten Fragesatz ein",
+                        "contrast": "",
+                        "example": ""
+                    },
+                    "gap_9": {
+                        "answer": "daher",
+                        "rule_type": "Adverb",
+                        "reason": "logische Konsequenz aus den ungeklärten Fragen.",
+                        "pattern": "Kausaladverb",
+                        "contrast": "",
+                        "example": ""
+                    },
+                    "gap_10": {
+                        "answer": "daran",
+                        "rule_type": "Pronominaladverb",
+                        "reason": "Pronominaladverb, feste Konstruktion.",
+                        "pattern": "Daran arbeiten, etwas zu tun",
+                        "contrast": "",
+                        "example": ""
+                    }
+                }
+            },
+            "points": 1,
+            "order": 50,
+            "is_active": true,
+            "status": "published",
+            "generation_mode": "manual",
+            "source_label": "Internal Zertify seed set",
+            "source_url": null,
+            "source_notes": null,
+            "audio_source_type": null,
+            "audio_external_url": null,
+            "audio_voice_preset": "news_female",
+            "audio_style_preset": "clean",
+            "audio_asset": null
+        },
+        {
+            "seed_key": null,
+            "content_key": "question.01kszn5md1q4738t0amj9e3r9j",
+            "exam_slug": "telc-b2",
+            "module_slug": "lesen-teil-1",
+            "topic": "Lesen 1: Kultur, Freizeit und Medienpraxis",
+            "format": "reading_matching_headlines",
+            "difficulty": "medium",
+            "content": {
+                "instructions": "Lesen Sie zuerst die zehn Überschriften. Lesen Sie dann die fünf Texte und entscheiden Sie, welche Überschrift am besten zu welchem Text passt.",
+                "headings": [
+                    {
+                        "id": "heading_a",
+                        "label": "A",
+                        "text": "Ehrenamt als Basis für das Sportangebot"
+                    },
+                    {
+                        "id": "heading_b",
+                        "label": "B",
+                        "text": "Fotografieren lernen: Den Blick für Motive schärfen"
+                    },
+                    {
+                        "id": "heading_c",
+                        "label": "C",
+                        "text": "Bibliotheken wandeln sich zum Ort der Begegnung"
+                    },
+                    {
+                        "id": "heading_d",
+                        "label": "D",
+                        "text": "Verletzungsrisiken im Freizeitsport minimieren"
+                    },
+                    {
+                        "id": "heading_e",
+                        "label": "E",
+                        "text": "Digitale Bilderflut macht die Archivierung zur Qual"
+                    },
+                    {
+                        "id": "heading_f",
+                        "label": "F",
+                        "text": "Vereinsleben bietet mehr als nur sportliche Betätigung"
+                    },
+                    {
+                        "id": "heading_g",
+                        "label": "G",
+                        "text": "Smartphone-Boom steigert Nachfrage nach Fotokursen"
+                    },
+                    {
+                        "id": "heading_h",
+                        "label": "H",
+                        "text": "Öffentliche Bibliotheken modernisieren ihr digitales Angebot"
+                    },
+                    {
+                        "id": "heading_i",
+                        "label": "I",
+                        "text": "Sicherheitsregeln als Voraussetzung für den Trampolinspaß"
+                    },
+                    {
+                        "id": "heading_j",
+                        "label": "J",
+                        "text": "Der neue Wert alter Fotoalben im digitalen Zeitalter"
+                    }
+                ],
+                "texts": [
+                    {
+                        "id": "text_1",
+                        "title": "Text 1",
+                        "body": "Kleine Sportvereine in ländlichen Regionen stehen vor einer gewaltigen Herausforderung, die den Kern ihres Angebots bedroht. Während das Interesse an Kursen und Wettkämpfen stabil bleibt, schwindet die Zahl der Menschen, die bereit sind, unentgeltlich Verantwortung zu übernehmen. Ohne engagierte Trainer lassen sich viele Jugendmannschaften kaum noch aufrechterhalten, da die pädagogische Betreuung neben dem eigentlichen Training viel Zeit kostet. Auch die Organisation von einem traditionellen Vereinsfest, das früher als gesellschaftlicher Höhepunkt galt, scheitert immer öfter am Mangel an helfenden Händen. Viele Vorstände berichten, dass Mitglieder zwar gerne die Infrastruktur nutzen, sich aber seltener für feste Ämter verpflichten. Diese Entwicklung führt dazu, dass beliebte Sparten geschlossen werden müssen, obwohl die Nachfrage der Sportbegeisterten ungebrochen ist. Langfristig gerät so die soziale Funktion des Sports in Gefahr, da die Last der Arbeit auf immer weniger Schultern verteilt wird."
+                    },
+                    {
+                        "id": "text_2",
+                        "title": "Text 2",
+                        "body": "Die technische Qualität moderner Smartphonekameras hat in den letzten Jahren ein Niveau erreicht, das früher nur Profiausrüstungen vorbehalten war. Doch trotz hochauflösender Sensoren und intelligenter Software stellen viele Nutzer fest, dass teure Technik allein noch kein ästhetisch ansprechendes Bild garantiert. Dieser Umstand hat einen regelrechten Boom bei spezialisierten Fotoworkshops ausgelöst, in denen Amateure die Grundlagen der Bildkomposition von Grund auf erlernen. In diesen Kursen geht es weniger um technische Details der Gerätebedienung, sondern vielmehr darum, den Blick für Lichtstimmungen und Perspektiven zu schärfen. Die Teilnehmer möchten verstehen, wie sie aus einem schnellen Schnappschuss eine bewusste Aufnahme machen können, die eine Geschichte erzählt. Oft wird erst im praktischen Training deutlich, dass ein gutes Foto im Kopf des Fotografen entsteht und nicht durch die Anzahl der Megapixel. So verwandelt die allgegenwärtige Verfügbarkeit von Kameras das Hobby Fotografie von einer rein technischen Spielerei in eine kreative Ausdrucksform, für die systematisches Lernen wieder an Bedeutung gewinnt."
+                    },
+                    {
+                        "id": "text_3",
+                        "title": "Text 3",
+                        "body": "In fast jeder größeren Stadt finden sich mittlerweile moderne Trampolinhallen, die besonders bei Jugendlichen als attraktives Ziel für die Freizeitgestaltung gelten. Die Kombination aus sportlicher Betätigung und dem Reiz des Fliegens sorgt für hohe Besucherzahlen, birgt jedoch bei unsachgemäßer Nutzung ein erhebliches Verletzungsrisiko. Um Unfälle zu vermeiden, setzen die Betreiber verstärkt auf ein strenges Regelwerk und geschultes Personal, das die Sprungflächen permanent überwacht. Eine lückenlose Aufsicht ist unerlässlich, da viele Gäste ihre eigenen körperlichen Fähigkeiten überschätzen oder riskante Sprünge ohne Vorbereitung ausprobieren. Vor dem Betreten der Halle müssen Besucher oft Sicherheitseinweisungen absolvieren, in denen das richtige Verhalten auf den Tüchern erklärt wird. Nur wenn diese Vorgaben konsequent eingehalten werden, lässt sich der Betrieb wirtschaftlich und sicher führen. Trotz der lockeren Atmosphäre bleibt der Aufenthalt in der Halle an strikte Bedingungen geknüpft, da die Sicherheit der Springer oberste Priorität hat und über den langfristigen Erfolg des gesamten Konzepts entscheidet."
+                    },
+                    {
+                        "id": "text_4",
+                        "title": "Text 4",
+                        "body": "Öffentliche Bibliotheken durchlaufen einen fundamentalen Wandel, der ihr traditionelles Image als staubige Orte der Stille grundlegend verändert. Während sie früher primär als Archive für gedruckte Bücher dienten, entwickeln sie sich heute zu lebendigen Zentren der Begegnung für alle Generationen. Neben klassischen Regalen finden sich vermehrt gemütliche Cafés, moderne Lernräume für Gruppenarbeiten und Flächen für kulturelle Veranstaltungen wie eine öffentliche Lesung oder Diskussionsabende. Auch digitale Angebote spielen eine zentrale Rolle, da der Zugang zu Wissen längst nicht mehr nur über Papier erfolgt. Diese Neuausrichtung macht die Institution zu einem wichtigen sozialen Raum, in dem der Austausch zwischen Menschen ebenso wichtig ist wie die stille Lektüre. Besonders in städtischen Quartieren fungieren die Häuser als kostenlose Treffpunkte, die den gesellschaftlichen Zusammenhalt fördern. Damit reagieren die Bibliotheken auf die Bedürfnisse einer vernetzten Gesellschaft, die Orte sucht, an denen Bildung und soziale Kontakte barrierefrei miteinander verknüpft werden können."
+                    },
+                    {
+                        "id": "text_5",
+                        "title": "Text 5",
+                        "body": "Dank der digitalen Fotografie werden heute in wenigen Sekunden mehr Aufnahmen gemacht als früher in einem ganzen Jahr. Die ständige Verfügbarkeit von Smartphonekameras führt dazu, dass fast jeder Moment des Alltags festgehalten wird, was zu einer unüberschaubaren Menge an Dateien führt. Diese enorme Bilderflut stellt viele Nutzer vor das Problem, die wirklich bedeutsamen Aufnahmen in den digitalen Speichern wiederzufinden. Während ein physisches Fotoalbum durch seine begrenzte Kapazität zur Auswahl zwang, verleitet der unbegrenzte Speicherplatz dazu, alles wahllos aufzubewahren. Dadurch verlieren einzelne Bilder oft ihren besonderen Wert, da sie in der Masse der belanglosen Schnappschüsse untergehen. Die Herausforderung besteht heute weniger im Festhalten der Erinnerung, sondern vielmehr in der mühsamen Sichtung und Archivierung der Datenbestände. Wer seine persönlichen Erlebnisse langfristig bewahren möchte, muss lernen, regelmäßig zu löschen und sich auf die wesentlichen Motive zu konzentrieren, um die Übersicht über das eigene digitale Leben nicht vollständig zu verlieren."
+                    }
+                ],
+                "correct": {
+                    "text_1": "heading_a",
+                    "text_2": "heading_g",
+                    "text_3": "heading_i",
+                    "text_4": "heading_c",
+                    "text_5": "heading_e"
+                },
+                "explanation": {
+                    "text_1": {
+                        "correct_answer": "heading_a",
+                        "reason": "Abhängigkeit des Vereinsangebots vom ehrenamtlichen Engagement.",
+                        "evidence": "Die Überschrift bringt auf den Punkt, dass das sportliche Angebot ohne freiwillige Helfer und Trainer nicht aufrechterhalten werden kann.",
+                        "wrong_answer_reason": "Überschrift F ist zwar allgemein wahr, verfehlt aber den Schwerpunkt des Textes, der die Problematik des Helfermangels betont.",
+                        "strategy_hint": ""
+                    },
+                    "text_2": {
+                        "correct_answer": "heading_g",
+                        "reason": "Zusammenhang zwischen Technikverbreitung und dem Wunsch nach Weiterbildung.",
+                        "evidence": "Der Text erklärt, warum die ständige Verfügbarkeit von Kameras zu einem neuen Bedarf an professionellen Gestaltungskursen führt.",
+                        "wrong_answer_reason": "Überschrift B beschreibt lediglich einen inhaltlichen Teilaspekt der Kurse, erfasst aber nicht die Ursache für das gestiegene Interesse.",
+                        "strategy_hint": ""
+                    },
+                    "text_3": {
+                        "correct_answer": "heading_i",
+                        "reason": "Notwendigkeit strenger Regeln für einen sicheren Betrieb von Trampolinhallen.",
+                        "evidence": "Die Überschrift verknüpft das Freizeitvergnügen direkt mit den erforderlichen Sicherheitsvorkehrungen, die im Text zentral sind.",
+                        "wrong_answer_reason": "Überschrift D ist zu weit gefasst und bezieht sich auf den gesamten Freizeitsport, während der Text spezifisch Trampolinhallen behandelt.",
+                        "strategy_hint": ""
+                    },
+                    "text_4": {
+                        "correct_answer": "heading_c",
+                        "reason": "Transformation der Bibliothek vom Archiv zum sozialen Treffpunkt.",
+                        "evidence": "Die Überschrift spiegelt den im Text beschriebenen Wandel hin zu einem Ort für Austausch und Begegnung wider.",
+                        "wrong_answer_reason": "Die Digitalisierung (Überschrift H) wird im Text zwar erwähnt, ist aber nur ein Baustein der Neuausrichtung und nicht das Hauptthema.",
+                        "strategy_hint": ""
+                    },
+                    "text_5": {
+                        "correct_answer": "heading_e",
+                        "reason": "Probleme bei der Verwaltung und Auswahl großer digitaler Bildmengen.",
+                        "evidence": "Die Überschrift fasst die im Text beschriebene Überforderung durch die Masse an Dateien und die Schwierigkeit der Archivierung zusammen.",
+                        "wrong_answer_reason": "Der Text warnt vor dem Verlust der Übersicht in der Gegenwart, statt eine Wertsteigerung alter Alben (Überschrift J) zu thematisieren.",
+                        "strategy_hint": ""
+                    }
+                },
+                "format": "reading_matching_headlines",
+                "source": {
+                    "label": "Internal Zertify seed set",
+                    "url": "",
+                    "notes": "AI-generated B2 Allgemein seed task."
+                }
+            },
+            "points": 1,
+            "order": 10,
+            "is_active": true,
+            "status": "published",
+            "generation_mode": "manual",
+            "source_label": "Internal Zertify seed set",
+            "source_url": null,
+            "source_notes": "AI-generated B2 Allgemein seed task.",
+            "audio_source_type": null,
+            "audio_external_url": null,
+            "audio_voice_preset": "news_female",
+            "audio_style_preset": "clean",
+            "audio_asset": null
+        },
+        {
+            "seed_key": null,
+            "content_key": "question.01kszn5mdmspwp92x3mftsb25s",
+            "exam_slug": "telc-b2",
+            "module_slug": "lesen-teil-2",
+            "topic": "Lesen 2: Familienleben zwischen Nähe und Konflikt",
+            "format": "reading_article_mc",
+            "difficulty": "medium",
+            "content": {
+                "instructions": "Lesen Sie den Text und die Aufgaben 6 bis 10. Entscheiden Sie, welche Lösung (a, b oder c) richtig ist.",
+                "article": {
+                    "title": "Mehrgenerationenhäuser: Eine alte Idee neu entdeckt",
+                    "body": "Das Zusammenleben mehrerer Generationen unter einem Dach war über Jahrhunderte hinweg die Norm in vielen Gesellschaften. Großfamilien lebten gemeinsam, unterstützten sich gegenseitig im Alltag und teilten Ressourcen. Diese traditionelle Wohnform geriet im Zuge der Industrialisierung und Urbanisierung in den Hintergrund. Die Kernfamilie wurde zum vorherrschenden Modell, während ältere Menschen zunehmend isoliert lebten oder in Pflegeeinrichtungen zogen. Doch in den letzten Jahren ist ein bemerkenswerter Wandel zu beobachten, der die Vorteile des Mehrgenerationenwohnens wieder in den Fokus rückt.\n\nEin wesentlicher Treiber dieser Entwicklung ist die demografische Veränderung. Mit einer immer älter werdenden Gesellschaft und gleichzeitig steigenden Kosten für Pflege und Wohnraum suchen viele Familien nach alternativen Lösungen. Mehrgenerationenhäuser bieten hier eine attraktive Perspektive: Sie ermöglichen es, Pflegeaufgaben innerhalb der Familie zu verteilen und gleichzeitig die finanzielle Belastung zu mindern. Eine aktuelle Beobachtung zeigt, dass nicht nur Großeltern und Enkel profitieren, sondern auch die mittlere Generation Entlastung erfährt, indem sie zum Beispiel bei der Kindererziehung Unterstützung erhält oder im Alter selbst versorgt wird.\n\nAllerdings sind Mehrgenerationenprojekte nicht immer nur von Harmonie geprägt. Das Zusammenführen unterschiedlicher Lebensstile und Erwartungen kann zu Reibungen führen, besonders wenn klare Absprachen fehlen. Jüngere Generationen schätzen oft ihre Unabhängigkeit und Privatsphäre, während ältere Generationen möglicherweise mehr Wert auf gemeinsame Aktivitäten legen. Solche Konflikte zeigen sich häufig im Alltag, etwa bei der Nutzung gemeinsamer Räume oder der Aufteilung von Verantwortlichkeiten.\n\nIn vielen erfolgreichen Mehrgenerationenhaushalten hat sich die Einrichtung eines regelmäßigen „Familienrats” bewährt. Bei diesen Treffen werden nicht nur praktische Fragen des Zusammenlebens besprochen, sondern auch persönliche Anliegen und eventuelle Spannungen offen angesprochen. Die Erfahrung zeigt, dass die Möglichkeit, Meinungsverschiedenheiten in einem strukturierten Rahmen zu klären, die Bindung stärkt und Missverständnisse verhindert.\n\nDie Vorteile des Mehrgenerationenwohnens reichen über die rein praktische Unterstützung hinaus. Studien belegen, dass Kinder, die in einem Mehrgenerationenhaushalt aufwachsen, oft ein stärkeres soziales Empfinden entwickeln. Für Senioren bedeutet das Leben im Kreise der Familie eine Verringerung des Gefühls der Einsamkeit. Diese positiven Effekte treten jedoch nur dann vollständig ein, wenn das Zusammenleben auf Freiwilligkeit basiert und die individuellen Bedürfnisse jedes Einzelnen respektiert werden. Ein Mehrgenerationenhaus ist kein Allheilmittel, sondern eine Wohnform, die bewusste Gestaltung erfordert.\n\nEs zeigt sich, dass ein erfolgreiches Mehrgenerationenprojekt nicht primär von der Größe des Hauses oder dem Reichtum der Familie abhängt, sondern vielmehr von der Bereitschaft der Bewohner, sich aufeinander einzulassen und gemeinsame Lösungen zu finden. Die Zukunft des Familienlebens könnte somit in einer modernen Interpretation alter Traditionen liegen, die sowohl Unabhängigkeit als auch Verbundenheit ermöglicht."
+                },
+                "questions": [
+                    {
+                        "id": "question_1",
+                        "prompt": "Welchen Vorteil bietet das Mehrgenerationenwohnen der mittleren Generation?",
+                        "options": [
+                            {
+                                "id": "q1_a",
+                                "label": "a",
+                                "text": "Sie kann ihre Unabhängigkeit besser wahren, da die Großeltern die Hauptverantwortung tragen."
+                            },
+                            {
+                                "id": "q1_b",
+                                "label": "b",
+                                "text": "Sie wird entlastet, weil sie Hilfe bei der Kindererziehung oder der Versorgung im Alter bekommt."
+                            },
+                            {
+                                "id": "q1_c",
+                                "label": "c",
+                                "text": "Sie profitiert finanziell durch die Übernahme aller Pflegekosten durch die ältere Generation."
+                            }
+                        ]
+                    },
+                    {
+                        "id": "question_2",
+                        "prompt": "Wodurch können im Mehrgenerationenhaus Reibungen entstehen?",
+                        "options": [
+                            {
+                                "id": "q2_a",
+                                "label": "a",
+                                "text": "Durch die Notwendigkeit, Kompromisse einzugehen und persönliche Anliegen anzusprechen."
+                            },
+                            {
+                                "id": "q2_b",
+                                "label": "b",
+                                "text": "Durch die Aufteilung von Verantwortlichkeiten im Alltag."
+                            },
+                            {
+                                "id": "q2_c",
+                                "label": "c",
+                                "text": "Durch das Zusammentreffen verschiedener Lebensstile und mangelnde Absprachen."
+                            }
+                        ]
+                    },
+                    {
+                        "id": "question_3",
+                        "prompt": "Was ist eine Folge der Einrichtung eines regelmäßigen Familienrats?",
+                        "options": [
+                            {
+                                "id": "q3_a",
+                                "label": "a",
+                                "text": "Die familiäre Bindung wird gestärkt und Missverständnisse lassen sich vermeiden."
+                            },
+                            {
+                                "id": "q3_b",
+                                "label": "b",
+                                "text": "Die Verteilung von Pflegeaufgaben innerhalb der Familie wird effizienter."
+                            },
+                            {
+                                "id": "q3_c",
+                                "label": "c",
+                                "text": "Alle Generationen entwickeln ein stärkeres soziales Empfinden."
+                            }
+                        ]
+                    },
+                    {
+                        "id": "question_4",
+                        "prompt": "Unter welcher Voraussetzung entfalten sich die positiven Effekte des Mehrgenerationenwohnens vollständig?",
+                        "options": [
+                            {
+                                "id": "q4_a",
+                                "label": "a",
+                                "text": "Wenn die Bewohner bereit sind, Kompromisse einzugehen und offen über ihre Bedürfnisse sprechen."
+                            },
+                            {
+                                "id": "q4_b",
+                                "label": "b",
+                                "text": "Wenn ein regelmäßiger Familienrat eingerichtet wird, um Konflikte zu klären."
+                            },
+                            {
+                                "id": "q4_c",
+                                "label": "c",
+                                "text": "Wenn es auf Freiwilligkeit beruht und die individuellen Bedürfnisse aller Bewohner respektiert werden."
+                            }
+                        ]
+                    },
+                    {
+                        "id": "question_5",
+                        "prompt": "Wovon hängt der Erfolg eines Mehrgenerationenprojekts maßgeblich ab?",
+                        "options": [
+                            {
+                                "id": "q5_a",
+                                "label": "a",
+                                "text": "Von der Bereitschaft der Bewohner, sich aufeinander einzulassen und gemeinsame Lösungen zu finden."
+                            },
+                            {
+                                "id": "q5_b",
+                                "label": "b",
+                                "text": "Von der klaren Festlegung fester Regeln für die Nutzung von Gemeinschaftsflächen."
+                            },
+                            {
+                                "id": "q5_c",
+                                "label": "c",
+                                "text": "Von der Möglichkeit, Meinungsverschiedenheiten in einem strukturierten Rahmen zu klären."
+                            }
+                        ]
+                    }
+                ],
+                "correct": {
+                    "question_1": "q1_b",
+                    "question_2": "q2_c",
+                    "question_3": "q3_a",
+                    "question_4": "q4_c",
+                    "question_5": "q5_a"
+                },
+                "explanation": {
+                    "question_1": {
+                        "correct_answer": "q1_b",
+                        "reason": "Die mittlere Generation wird entlastet durch Unterstützung bei Kindererziehung oder Versorgung im Alter.",
+                        "evidence": "Der Text nennt: die mittlere Generation erfährt Entlastung durch Kindererziehungshilfe und Altersversorgung.",
+                        "wrong_answer_reason": "Option c ist eine Übertreibung: Der Text erwähnt, dass Kosten gemindert werden, nicht dass die ältere Generation alle Pflegekosten übernimmt.",
+                        "strategy_hint": ""
+                    },
+                    "question_2": {
+                        "correct_answer": "q2_c",
+                        "reason": "Reibungen entstehen durch unterschiedliche Lebensstile und fehlende klare Absprachen.",
+                        "evidence": "Das Zusammenführen unterschiedlicher Lebensstile und Erwartungen kann zu Reibungen führen, besonders wenn klare Absprachen fehlen.",
+                        "wrong_answer_reason": "Option b nennt einen Bereich, in dem sich Konflikte zeigen können, aber nicht die eigentliche Ursache dafür.",
+                        "strategy_hint": ""
+                    },
+                    "question_3": {
+                        "correct_answer": "q3_a",
+                        "reason": "Die Bindung der Familienmitglieder wird gestärkt und Missverständnisse werden verhindert.",
+                        "evidence": "Die Möglichkeit, Meinungsverschiedenheiten in einem strukturierten Rahmen zu klären, stärkt die Bindung und verhindert Missverständnisse.",
+                        "wrong_answer_reason": "Option b nennt einen allgemeinen Vorteil des Mehrgenerationenwohnens, nicht die direkte Folge des Familienrats.",
+                        "strategy_hint": ""
+                    },
+                    "question_4": {
+                        "correct_answer": "q4_c",
+                        "reason": "Die positiven Effekte treten vollständig ein, wenn das Zusammenleben auf Freiwilligkeit basiert und individuelle Bedürfnisse respektiert werden.",
+                        "evidence": "Diese positiven Effekte treten nur dann vollständig ein, wenn das Zusammenleben auf Freiwilligkeit basiert und die individuellen Bedürfnisse jedes Einzelnen respektiert werden.",
+                        "wrong_answer_reason": "Option a nennt Bedingungen für ein funktionierendes Zusammenleben, aber nicht die genaue Voraussetzung für das vollständige Eintreten der positiven Effekte.",
+                        "strategy_hint": ""
+                    },
+                    "question_5": {
+                        "correct_answer": "q5_a",
+                        "reason": "Ein erfolgreiches Mehrgenerationenprojekt hängt von der Bereitschaft der Bewohner ab, sich aufeinander einzulassen und gemeinsame Lösungen zu finden.",
+                        "evidence": "Ein erfolgreiches Mehrgenerationenprojekt hängt nicht primär von der Größe des Hauses ab, sondern von der Bereitschaft der Bewohner, sich aufeinander einzulassen und gemeinsame Lösungen zu finden.",
+                        "wrong_answer_reason": "Option b nennt eine Konsequenz der Bereitschaft, aber nicht die maßgebliche Voraussetzung selbst.",
+                        "strategy_hint": ""
+                    }
+                },
+                "format": "reading_article_mc",
+                "source": {
+                    "label": "Internal Zertify seed set",
+                    "url": "",
+                    "notes": "AI-generated B2 Allgemein seed task."
+                }
+            },
+            "points": 1,
+            "order": 10,
+            "is_active": true,
+            "status": "published",
+            "generation_mode": "manual",
+            "source_label": "Internal Zertify seed set",
+            "source_url": null,
+            "source_notes": "AI-generated B2 Allgemein seed task.",
+            "audio_source_type": null,
+            "audio_external_url": null,
+            "audio_voice_preset": "news_female",
+            "audio_style_preset": "clean",
+            "audio_asset": null
+        },
+        {
+            "seed_key": null,
+            "content_key": "question.01kszn5me960hkrhg3b4tt31aj",
+            "exam_slug": "telc-b2",
+            "module_slug": "lesen-teil-3",
+            "topic": "Lesen 3: Mobilität, Stadtangebote und Zugang",
+            "format": "reading_situations_matching",
+            "difficulty": "medium",
+            "content": {
+                "instructions": "Lesen Sie die Situationen 1 bis 10 und die Anzeigen a bis l. Welche Anzeige passt zu welcher Situation? Für zwei Situationen gibt es keine passende Anzeige. Markieren Sie dann x.",
+                "situations": [
+                    {
+                        "id": "situation_1",
+                        "number": 1,
+                        "text": "Sie möchten für eine Woche ein E-Lastenfahrrad mieten, um größere Einkäufe und Ihre Kinder zu transportieren. Die Abholung sollte zentral in der Innenstadt möglich sein."
+                    },
+                    {
+                        "id": "situation_2",
+                        "number": 2,
+                        "text": "Als Rollstuhlfahrer suchen Sie eine barrierefreie Möglichkeit, um vom Hauptbahnhof direkt zum Botanischen Garten zu gelangen."
+                    },
+                    {
+                        "id": "situation_3",
+                        "number": 3,
+                        "text": "Sie suchen eine flexible Mitfahrgelegenheit für regelmäßige Fahrten zwischen zwei Stadtteilen, idealerweise ohne feste Zeiten oder Vorab-Buchung."
+                    },
+                    {
+                        "id": "situation_4",
+                        "number": 4,
+                        "text": "Ihre Familie (zwei Erwachsene, zwei Kinder unter 12) möchte einen Tag lang das Stadtzentrum erkunden und dabei öffentliche Verkehrsmittel nutzen. Sie suchen ein günstiges Tagesticket."
+                    },
+                    {
+                        "id": "situation_5",
+                        "number": 5,
+                        "text": "Sie möchten Ihr eigenes Fahrrad sicher und kostengünstig am Hauptbahnhof für mehrere Tage parken, da Sie verreisen."
+                    },
+                    {
+                        "id": "situation_6",
+                        "number": 6,
+                        "text": "Sie sind neu in der Stadt und möchten sich über die verschiedenen Sharing-Angebote für E-Scooter und Fahrräder informieren, bevor Sie sich anmelden."
+                    },
+                    {
+                        "id": "situation_7",
+                        "number": 7,
+                        "text": "Sie benötigen einen Transportservice, der größere Möbelstücke innerhalb der Stadt liefern kann und auch beim Tragen hilft."
+                    },
+                    {
+                        "id": "situation_8",
+                        "number": 8,
+                        "text": "Sie suchen einen Fahrdienst für ältere Menschen, der auch medizinische Termine außerhalb der Stadt abdeckt."
+                    },
+                    {
+                        "id": "situation_9",
+                        "number": 9,
+                        "text": "Als Tourist möchten Sie eine geführte Stadtrundfahrt mit dem Bus erleben, die die wichtigsten Sehenswürdigkeiten der Innenstadt abdeckt."
+                    },
+                    {
+                        "id": "situation_10",
+                        "number": 10,
+                        "text": "Sie planen einen Wochenendausflug mit Freunden und möchten ein größeres Fahrzeug mieten, das Platz für 7 Personen bietet."
+                    }
+                ],
+                "texts": [
+                    {
+                        "id": "text_a",
+                        "label": "A",
+                        "title": "Familien- und Lastenradverleih 'Rad & Roll'",
+                        "body": "Mieten Sie unsere modernen E-Lastenfahrräder für flexible Zeiträume – stundenweise, täglich oder wochenweise. Perfekt für den Transport von Einkäufen, Kindern oder kleineren Möbeln. Unsere zentrale Station am Marktplatz ist täglich von 9-18 Uhr geöffnet. Reservierung online oder direkt vor Ort. Kindersitze sind inklusive."
+                    },
+                    {
+                        "id": "text_b",
+                        "label": "B",
+                        "title": "Barrierefreier Nahverkehr – Ihr Weg durch die Stadt",
+                        "body": "Unsere speziell ausgestatteten Niederflurbusse und rollstuhlgerechten Straßenbahnen bringen Sie bequem zu allen wichtigen Zielen. Eine direkte Linie (Linie 7) verbindet den Hauptbahnhof mit dem Botanischen Garten und dem Stadtpark. Informationen zu barrierefreien Haltestellen finden Sie auf unserer Webseite."
+                    },
+                    {
+                        "id": "text_c",
+                        "label": "C",
+                        "title": "City-Shuttle: Der flexible Fahrdienst",
+                        "body": "Unser City-Shuttle bietet Fahrdienste innerhalb des Stadtgebiets an. Buchen Sie Ihre Fahrt bequem per App oder Telefon. Ideal für Einkaufsfahrten, Arztbesuche oder den Weg zur Arbeit. Nur nach Vorab-Buchung. Nicht für regelmäßige Pendlerfahrten ohne feste Route konzipiert."
+                    },
+                    {
+                        "id": "text_d",
+                        "label": "D",
+                        "title": "Familienticket 'Stadtabenteuer'",
+                        "body": "Erkunden Sie unsere Stadt einen ganzen Tag lang mit dem 'Stadtabenteuer'-Ticket! Gültig für bis zu fünf Personen (maximal zwei Erwachsene, drei Kinder unter 15 Jahren) in allen Zonen des Stadtgebiets. Preis: 15,00 Euro. Erhältlich an allen Automaten und Verkaufsstellen."
+                    },
+                    {
+                        "id": "text_e",
+                        "label": "E",
+                        "title": "Sicher parken am Hauptbahnhof – Die Fahrradgarage",
+                        "body": "Unsere moderne Fahrradgarage am Hauptbahnhof bietet sichere Stellplätze für Ihr Fahrrad. Kurzzeit- und Langzeitparken möglich. Tageskarte 1,50 Euro, Wochenkarte 7,00 Euro. Videoüberwacht und wettergeschützt. Ideal für Pendler und Reisende, die ihr Fahrrad sicher abstellen möchten. Zugang 24/7 mit Ihrer Kundenkarte."
+                    },
+                    {
+                        "id": "text_f",
+                        "label": "F",
+                        "title": "Möbel-Taxi: Ihr Umzugshelfer in der Stadt",
+                        "body": "Brauchen Sie Hilfe beim Transport großer oder sperriger Gegenstände? Unser Möbel-Taxi liefert innerhalb des Stadtgebiets. Wir helfen Ihnen nicht nur beim Transport, sondern auch beim Ein- und Ausladen. Buchen Sie unseren Service stundenweise. Ideal für Umzüge, Möbelkäufe oder Entrümpelungen."
+                    },
+                    {
+                        "id": "text_g",
+                        "label": "G",
+                        "title": "Stadtführungen mit 'Panorama Express'",
+                        "body": "Entdecken Sie die Schönheit unserer Stadt mit unseren komfortablen Panorama-Bussen. Unsere erfahrenen Guides zeigen Ihnen die historischen Höhepunkte und versteckten Gassen im Zentrum. Die Tour dauert 2 Stunden und endet am Ausgangspunkt. Ideal für Erstbesucher."
+                    },
+                    {
+                        "id": "text_h",
+                        "label": "H",
+                        "title": "Fahrrad- und E-Scooter-Sharing: Die Anbieter im Vergleich",
+                        "body": "Dieser Online-Ratgeber bietet Ihnen einen umfassenden Überblick über alle in unserer Stadt verfügbaren Sharing-Angebote für Fahrräder und E-Scooter. Erfahren Sie mehr über Registrierung, Kostenmodelle und Nutzungsbedingungen der verschiedenen Anbieter. Ideal für alle, die sich vor der ersten Fahrt informieren möchten."
+                    },
+                    {
+                        "id": "text_i",
+                        "label": "I",
+                        "title": "Senioren-Fahrdienst 'Mobil im Alter'",
+                        "body": "Unser Fahrdienst ist speziell auf die Bedürfnisse älterer Menschen zugeschnitten. Wir bieten Fahrten zu Arztterminen, Einkaufsmöglichkeiten und Freizeitaktivitäten – ausschließlich innerhalb der Stadtgrenzen. Unsere Fahrer sind geschult und hilfsbereit."
+                    },
+                    {
+                        "id": "text_j",
+                        "label": "J",
+                        "title": "Großraum-Vans für Gruppenreisen",
+                        "body": "Sie planen einen Ausflug mit Freunden oder Familie? Mieten Sie unsere komfortablen Großraum-Vans mit Platz für 7 bis 9 Personen. Ideal für Wochenendtrips, Vereinsfahrten oder längere Reisen. Flexible Mietdauer und günstige Tarife."
+                    },
+                    {
+                        "id": "text_k",
+                        "label": "K",
+                        "title": "Intercity Busreisen – Entdecken Sie die Region",
+                        "body": "Unsere Buslinien verbinden die Stadt mit den umliegenden Gemeinden und ländlichen Regionen. Perfekt für Tagesausflüge oder Pendler, die außerhalb der Stadt leben. Wir bieten keine geführten Touren an, sondern regulären Linienverkehr."
+                    },
+                    {
+                        "id": "text_l",
+                        "label": "L",
+                        "title": "Fahrradreparatur-Werkstatt 'Pedal Power'",
+                        "body": "Ihr Fahrrad braucht eine Reparatur oder Wartung? Bei 'Pedal Power' sind Sie richtig! Wir reparieren alle Arten von Fahrrädern, von Citybikes bis E-Bikes. Schneller Service und faire Preise. Kein Fahrradverleih."
+                    }
+                ],
+                "extra_answer": {
+                    "id": "x",
+                    "label": "X",
+                    "text": "Keine passende Information"
+                },
+                "correct": {
+                    "situation_1": "text_a",
+                    "situation_2": "text_b",
+                    "situation_3": "x",
+                    "situation_4": "text_d",
+                    "situation_5": "text_e",
+                    "situation_6": "text_h",
+                    "situation_7": "text_f",
+                    "situation_8": "x",
+                    "situation_9": "text_g",
+                    "situation_10": "text_j"
+                },
+                "explanation": {
+                    "situation_1": {
+                        "correct_answer": "text_a",
+                        "reason": "Text A bietet E-Lastenfahrräder zum wochenweisen Verleih an, geeignet für Transport von Kindern und Einkäufen.",
+                        "evidence": "Die zentrale Station am Marktplatz erfüllt die Anforderung der zentralen Abholung.",
+                        "wrong_answer_reason": "Text L ist eine Fahrradreparaturwerkstatt und bietet keinen Verleih von Fahrrädern an.",
+                        "strategy_hint": ""
+                    },
+                    "situation_2": {
+                        "correct_answer": "text_b",
+                        "reason": "Text B beschreibt barrierefreie öffentliche Verkehrsmittel mit einer direkten Linie vom Hauptbahnhof zum Botanischen Garten.",
+                        "evidence": "Niederflurbusse und rollstuhlgerechte Straßenbahnen werden explizit genannt.",
+                        "wrong_answer_reason": "Text C bietet einen Fahrdienst an, erwähnt aber keine spezielle Barrierefreiheit für Rollstuhlfahrer.",
+                        "strategy_hint": ""
+                    },
+                    "situation_3": {
+                        "correct_answer": "x",
+                        "reason": "Kein Text bietet eine flexible Mitfahrgelegenheit für regelmäßige Fahrten ohne feste Zeiten oder Vorab-Buchung.",
+                        "evidence": "Text C erfordert eine Vorab-Buchung und ist nicht für regelmäßige Pendlerfahrten ohne feste Route konzipiert.",
+                        "wrong_answer_reason": "Alle anderen Fahrangebote haben ähnliche Einschränkungen.",
+                        "strategy_hint": ""
+                    },
+                    "situation_4": {
+                        "correct_answer": "text_d",
+                        "reason": "Text D bietet ein Tagesticket für bis zu fünf Personen (max. zwei Erwachsene, drei Kinder unter 15) zu einem günstigen Preis.",
+                        "evidence": "Das Ticket gilt einen ganzen Tag in allen Zonen des Stadtgebiets.",
+                        "wrong_answer_reason": "Text B beschreibt den barrierefreien Nahverkehr, bietet aber kein spezifisches Familientagesticket an.",
+                        "strategy_hint": ""
+                    },
+                    "situation_5": {
+                        "correct_answer": "text_e",
+                        "reason": "Text E bietet eine sichere, videoüberwachte Fahrradgarage am Hauptbahnhof mit Wochenkarte für Langzeitparken.",
+                        "evidence": "Der günstige Preis von 7,00 Euro pro Woche und 24/7-Zugang erfüllen die Anforderungen.",
+                        "wrong_answer_reason": "Text A ist ein Fahrradverleih, kein Parkplatz für das eigene Fahrrad.",
+                        "strategy_hint": ""
+                    },
+                    "situation_6": {
+                        "correct_answer": "text_h",
+                        "reason": "Text H ist ein Online-Ratgeber mit Überblick über alle Sharing-Angebote für Fahrräder und E-Scooter vor der Anmeldung.",
+                        "evidence": "Registrierung, Kostenmodelle und Nutzungsbedingungen verschiedener Anbieter werden beschrieben.",
+                        "wrong_answer_reason": "Text A ist ein Fahrradverleih, kein Informationsportal über verschiedene Sharing-Anbieter.",
+                        "strategy_hint": ""
+                    },
+                    "situation_7": {
+                        "correct_answer": "text_f",
+                        "reason": "Text F bietet einen Möbel-Taxi-Service für große und sperrige Gegenstände innerhalb des Stadtgebiets an.",
+                        "evidence": "Inklusive Hilfe beim Ein- und Ausladen (Tragehilfe) wird ausdrücklich erwähnt.",
+                        "wrong_answer_reason": "Text A ist ein Lastenradverleih, der keine Tragehilfe anbietet und für größere Möbel nicht ausreicht.",
+                        "strategy_hint": ""
+                    },
+                    "situation_8": {
+                        "correct_answer": "x",
+                        "reason": "Kein Text bietet einen Fahrdienst für ältere Menschen an, der medizinische Termine außerhalb der Stadt abdeckt.",
+                        "evidence": "Text I bietet einen Senioren-Fahrdienst für Arzttermine an, jedoch ausschließlich innerhalb der Stadtgrenzen.",
+                        "wrong_answer_reason": "Die Bedingung „außerhalb der Stadt” erfüllt keiner der Texte.",
+                        "strategy_hint": ""
+                    },
+                    "situation_9": {
+                        "correct_answer": "text_g",
+                        "reason": "Text G bietet geführte Stadtrundfahrten mit Panorama-Bussen an, die historische Höhepunkte im Zentrum zeigen.",
+                        "evidence": "Ideal für Erstbesucher und Touristen, die die wichtigsten Sehenswürdigkeiten sehen möchten.",
+                        "wrong_answer_reason": "Text K bietet regulären Linienverkehr, aber keine geführten Touren.",
+                        "strategy_hint": ""
+                    },
+                    "situation_10": {
+                        "correct_answer": "text_j",
+                        "reason": "Text J bietet Großraum-Vans mit Platz für 7 bis 9 Personen an, ideal für Wochenendtrips.",
+                        "evidence": "Flexible Mietdauer und günstige Tarife passen zur Anforderung.",
+                        "wrong_answer_reason": "Text A vermietet E-Lastenfahrräder, die nicht für 7 Personen geeignet sind.",
+                        "strategy_hint": ""
+                    }
+                },
+                "format": "reading_situations_matching",
+                "source": {
+                    "label": "Internal Zertify seed set",
+                    "url": "",
+                    "notes": "AI-generated B2 Allgemein seed task."
+                }
+            },
+            "points": 1,
+            "order": 10,
+            "is_active": true,
+            "status": "published",
+            "generation_mode": "manual",
+            "source_label": "Internal Zertify seed set",
+            "source_url": null,
+            "source_notes": "AI-generated B2 Allgemein seed task.",
+            "audio_source_type": null,
+            "audio_external_url": null,
+            "audio_voice_preset": "news_female",
+            "audio_style_preset": "clean",
+            "audio_asset": null
+        },
+        {
+            "seed_key": "hoeren-teil-1.reference.1",
+            "content_key": null,
+            "exam_slug": "telc-b2",
+            "module_slug": "hoeren-teil-1",
+            "topic": "Hören 1: Nachrichten am Mittag",
+            "format": "listening_segmented_true_false",
+            "difficulty": "medium",
+            "content": {
+                "instructions": "Sie hören nun eine Nachrichtensendung. Dazu sollen Sie fünf Aufgaben lösen. Sie hören die Nachrichtensendung nur einmal. Entscheiden Sie beim Hören, ob die Aussagen richtig oder falsch sind.",
+                "audio": {
+                    "title": "Nachrichten am Mittag",
+                    "audio_notes": "Professioneller Nachrichtensprecher, klares Sprechtempo, sechs Meldungen, fünf davon werden geprüft."
+                },
+                "intro": {
+                    "text": "Hier sind die Nachrichten.",
+                    "voice_profile": "anchor_main"
+                },
+                "segments": [
+                    {
+                        "id": "segment_1",
+                        "number": 1,
+                        "voice_profile": "news_main",
+                        "segment_text": "Der Deutsche Wetterdienst hat eine offizielle Unwetterwarnung für die gesamte Nordseeküste herausgegeben. Ab heute Abend ist mit schweren Sturmböen der Stärke neun bis zehn zu rechnen. Besonders betroffen sind die ostfriesischen Inseln sowie die Küstengebiete in Schleswig-Holstein. Experten erwarten den Beginn des Unwetters gegen achtzehn Uhr. Anwohner werden gebeten, lose Gegenstände zu sichern und den Aufenthalt im Freien während der Nachtstunden nach Möglichkeit zu vermeiden.",
+                        "statement_id": "statement_1",
+                        "statement_text": "Die ersten Sturmböen an der Küste werden für die Abendstunden des heutigen Tages erwartet.",
+                        "correct_answer": "true",
+                        "reason": "Die Experten rechnen mit dem Beginn des Unwetters gegen achtzehn Uhr, also am Abend.",
+                        "evidence": "Experten erwarten den Beginn des Unwetters gegen achtzehn Uhr.",
+                        "wrong_answer_reason": "",
+                        "strategy_hint": ""
+                    },
+                    {
+                        "id": "segment_2",
+                        "number": 2,
+                        "voice_profile": "news_main",
+                        "segment_text": "In Berlin verschiebt sich der Auftakt der internationalen Theaterwochen kurzfristig. Entgegen der ursprünglichen Planung wird das Festival nicht wie vorgesehen am Freitagabend eröffnet. Die Veranstalter teilten heute mit, dass technische Probleme beim Bühnenaufbau im Hauptgebäude eine Verzögerung verursachen. Daher beginnen die ersten Vorstellungen nun erst am kommenden Samstag. Insgesamt werden über dreißig Ensembles aus fünfzehn verschiedenen Ländern erwartet.",
+                        "statement_id": "statement_2",
+                        "statement_text": "Das internationale Theaterfestival in Berlin wird wie ursprünglich geplant am Freitagabend eröffnet.",
+                        "correct_answer": "false",
+                        "reason": "Wegen technischer Probleme verschiebt sich der Auftakt von Freitag auf Samstag.",
+                        "evidence": "Entgegen der ursprünglichen Planung wird das Festival nicht wie vorgesehen am Freitagabend eröffnet.",
+                        "wrong_answer_reason": "",
+                        "strategy_hint": ""
+                    },
+                    {
+                        "id": "segment_3",
+                        "number": 3,
+                        "voice_profile": "news_main",
+                        "segment_text": "Das Bildungsministerium hat heute ein neues Förderprogramm zur Digitalisierung an Grundschulen angekündigt. Insgesamt werden landesweit rund 15 Millionen Euro zusätzlich bereitgestellt, um die technische Ausstattung in den Klassenzimmern zu verbessern. Mit diesen Geldern sollen vor allem moderne Tablets für die Schülerinnen und Schüler angeschafft werden. Die Auszahlung der Mittel soll bereits zum Start des nächsten Schuljahres beginnen.",
+                        "statement_id": "statement_3",
+                        "statement_text": "Das Bildungsministerium stellt finanzielle Mittel für den Kauf von Tablets an Grundschulen zur Verfügung.",
+                        "correct_answer": "true",
+                        "reason": "Es werden 15 Millionen Euro zusätzlich bereitgestellt, um Tablets für Schüler anzuschaffen.",
+                        "evidence": "Mit diesen Geldern sollen vor allem moderne Tablets für die Schülerinnen und Schüler angeschafft werden.",
+                        "wrong_answer_reason": "",
+                        "strategy_hint": ""
+                    },
+                    {
+                        "id": "segment_4",
+                        "number": 4,
+                        "voice_profile": "news_main",
+                        "segment_text": "Die Landeshauptstadt Hannover führt ab dem kommenden Montag eine neue Bürger-Service-App ein, um Behördengänge zu digitalisieren. Über die Anwendung können Termine im Bürgeramt reserviert und Dokumente online beantragt werden. Die Stadtverwaltung weist jedoch ausdrücklich darauf hin, dass die Nutzung ausschließlich Personen mit gemeldetem Erstwohnsitz im Stadtgebiet vorbehalten bleibt. Pendler aus dem Umland können den digitalen Dienst vorerst nicht in Anspruch nehmen.",
+                        "statement_id": "statement_4",
+                        "statement_text": "Die neue Bürger-Service-App der Stadt Hannover kann auch von Personen genutzt werden, die außerhalb des Stadtgebiets wohnen.",
+                        "correct_answer": "false",
+                        "reason": "Die Nutzung bleibt ausdrücklich Personen mit Erstwohnsitz im Stadtgebiet vorbehalten; Pendler aus dem Umland sind ausgeschlossen.",
+                        "evidence": "die Nutzung ausschließlich Personen mit gemeldetem Erstwohnsitz im Stadtgebiet vorbehalten bleibt.",
+                        "wrong_answer_reason": "",
+                        "strategy_hint": ""
+                    },
+                    {
+                        "id": "segment_5",
+                        "number": 5,
+                        "voice_profile": "news_main",
+                        "segment_text": "Wissenschaftler der Universität Bremen haben in Zusammenarbeit mit der europäischen Weltraumorganisation ESA bahnbrechende Daten veröffentlicht. Durch die Analyse von Radarmessungen konnten in einer Tiefe von etwa zwei Kilometern unter der Marsoberfläche riesige Mengen an gefrorenem Wasser nachgewiesen werden. Diese Entdeckung in den tiefen Gesteinsschichten liefert neue Erkenntnisse über die geologische Geschichte des Roten Planeten.",
+                        "statement_id": "statement_5",
+                        "statement_text": "In tieferen Schichten des Planeten Mars wurde laut neuesten Untersuchungen gefrorenes Wasser entdeckt.",
+                        "correct_answer": "true",
+                        "reason": "Radarmessungen haben in zwei Kilometern Tiefe unter der Oberfläche gefrorenes Wasser nachgewiesen.",
+                        "evidence": "in einer Tiefe von etwa zwei Kilometern unter der Marsoberfläche riesige Mengen an gefrorenem Wasser nachgewiesen werden.",
+                        "wrong_answer_reason": "",
+                        "strategy_hint": ""
+                    }
+                ],
+                "statements": [
+                    {
+                        "id": "statement_1",
+                        "number": 1,
+                        "text": "Die ersten Sturmböen an der Küste werden für die Abendstunden des heutigen Tages erwartet."
+                    },
+                    {
+                        "id": "statement_2",
+                        "number": 2,
+                        "text": "Das internationale Theaterfestival in Berlin wird wie ursprünglich geplant am Freitagabend eröffnet."
+                    },
+                    {
+                        "id": "statement_3",
+                        "number": 3,
+                        "text": "Das Bildungsministerium stellt finanzielle Mittel für den Kauf von Tablets an Grundschulen zur Verfügung."
+                    },
+                    {
+                        "id": "statement_4",
+                        "number": 4,
+                        "text": "Die neue Bürger-Service-App der Stadt Hannover kann auch von Personen genutzt werden, die außerhalb des Stadtgebiets wohnen."
+                    },
+                    {
+                        "id": "statement_5",
+                        "number": 5,
+                        "text": "In tieferen Schichten des Planeten Mars wurde laut neuesten Untersuchungen gefrorenes Wasser entdeckt."
+                    }
+                ],
+                "correct": {
+                    "statement_1": "true",
+                    "statement_2": "false",
+                    "statement_3": "true",
+                    "statement_4": "false",
+                    "statement_5": "true"
+                },
+                "explanation": {
+                    "statement_1": {
+                        "correct_answer": "true",
+                        "reason": "Die Experten rechnen mit dem Beginn des Unwetters gegen achtzehn Uhr, also am Abend.",
+                        "evidence": "Experten erwarten den Beginn des Unwetters gegen achtzehn Uhr.",
+                        "wrong_answer_reason": "",
+                        "strategy_hint": ""
+                    },
+                    "statement_2": {
+                        "correct_answer": "false",
+                        "reason": "Wegen technischer Probleme verschiebt sich der Auftakt von Freitag auf Samstag.",
+                        "evidence": "Entgegen der ursprünglichen Planung wird das Festival nicht wie vorgesehen am Freitagabend eröffnet.",
+                        "wrong_answer_reason": "",
+                        "strategy_hint": ""
+                    },
+                    "statement_3": {
+                        "correct_answer": "true",
+                        "reason": "Es werden 15 Millionen Euro zusätzlich bereitgestellt, um Tablets für Schüler anzuschaffen.",
+                        "evidence": "Mit diesen Geldern sollen vor allem moderne Tablets für die Schülerinnen und Schüler angeschafft werden.",
+                        "wrong_answer_reason": "",
+                        "strategy_hint": ""
+                    },
+                    "statement_4": {
+                        "correct_answer": "false",
+                        "reason": "Die Nutzung bleibt ausdrücklich Personen mit Erstwohnsitz im Stadtgebiet vorbehalten; Pendler aus dem Umland sind ausgeschlossen.",
+                        "evidence": "die Nutzung ausschließlich Personen mit gemeldetem Erstwohnsitz im Stadtgebiet vorbehalten bleibt.",
+                        "wrong_answer_reason": "",
+                        "strategy_hint": ""
+                    },
+                    "statement_5": {
+                        "correct_answer": "true",
+                        "reason": "Radarmessungen haben in zwei Kilometern Tiefe unter der Oberfläche gefrorenes Wasser nachgewiesen.",
+                        "evidence": "in einer Tiefe von etwa zwei Kilometern unter der Marsoberfläche riesige Mengen an gefrorenem Wasser nachgewiesen werden.",
+                        "wrong_answer_reason": "",
+                        "strategy_hint": ""
+                    }
+                },
+                "format": "listening_segmented_true_false",
+                "source": {
+                    "label": "Internal Zertify seed set",
+                    "url": "",
+                    "notes": "AI-generated B2 Allgemein seed task."
+                },
+                "transcript": "Hier sind die Nachrichten.\n\nDer Deutsche Wetterdienst hat eine offizielle Unwetterwarnung für die gesamte Nordseeküste herausgegeben. Ab heute Abend ist mit schweren Sturmböen der Stärke neun bis zehn zu rechnen. Besonders betroffen sind die ostfriesischen Inseln sowie die Küstengebiete in Schleswig-Holstein. Experten erwarten den Beginn des Unwetters gegen achtzehn Uhr. Anwohner werden gebeten, lose Gegenstände zu sichern und den Aufenthalt im Freien während der Nachtstunden nach Möglichkeit zu vermeiden.\n\nIn Berlin verschiebt sich der Auftakt der internationalen Theaterwochen kurzfristig. Entgegen der ursprünglichen Planung wird das Festival nicht wie vorgesehen am Freitagabend eröffnet. Die Veranstalter teilten heute mit, dass technische Probleme beim Bühnenaufbau im Hauptgebäude eine Verzögerung verursachen. Daher beginnen die ersten Vorstellungen nun erst am kommenden Samstag. Insgesamt werden über dreißig Ensembles aus fünfzehn verschiedenen Ländern erwartet.\n\nDas Bildungsministerium hat heute ein neues Förderprogramm zur Digitalisierung an Grundschulen angekündigt. Insgesamt werden landesweit rund 15 Millionen Euro zusätzlich bereitgestellt, um die technische Ausstattung in den Klassenzimmern zu verbessern. Mit diesen Geldern sollen vor allem moderne Tablets für die Schülerinnen und Schüler angeschafft werden. Die Auszahlung der Mittel soll bereits zum Start des nächsten Schuljahres beginnen.\n\nDie Landeshauptstadt Hannover führt ab dem kommenden Montag eine neue Bürger-Service-App ein, um Behördengänge zu digitalisieren. Über die Anwendung können Termine im Bürgeramt reserviert und Dokumente online beantragt werden. Die Stadtverwaltung weist jedoch ausdrücklich darauf hin, dass die Nutzung ausschließlich Personen mit gemeldetem Erstwohnsitz im Stadtgebiet vorbehalten bleibt. Pendler aus dem Umland können den digitalen Dienst vorerst nicht in Anspruch nehmen.\n\nWissenschaftler der Universität Bremen haben in Zusammenarbeit mit der europäischen Weltraumorganisation ESA bahnbrechende Daten veröffentlicht. Durch die Analyse von Radarmessungen konnten in einer Tiefe von etwa zwei Kilometern unter der Marsoberfläche riesige Mengen an gefrorenem Wasser nachgewiesen werden. Diese Entdeckung in den tiefen Gesteinsschichten liefert neue Erkenntnisse über die geologische Geschichte des Roten Planeten."
+            },
+            "points": 1,
+            "order": 10,
+            "is_active": false,
+            "status": "draft",
+            "generation_mode": "manual",
+            "source_label": "Internal Zertify seed set",
+            "source_url": null,
+            "source_notes": "AI-generated B2 Allgemein seed task.",
+            "audio_source_type": null,
+            "audio_external_url": null,
+            "audio_voice_preset": "news_female",
+            "audio_style_preset": "clean",
+            "audio_asset": null
+        },
+        {
+            "seed_key": "hoeren-teil-2.reference.1",
+            "content_key": null,
+            "exam_slug": "telc-b2",
+            "module_slug": "hoeren-teil-2",
+            "topic": "Hören 2: Digitalisierung im Handwerk",
+            "format": "listening_long_true_false",
+            "difficulty": "medium",
+            "content": {
+                "instructions": "Sie hören ein Rundfunkinterview. Dazu sollen Sie zehn Aufgaben lösen. Sie hören dieses Interview nur einmal. Entscheiden Sie beim Hören, ob die Aussagen richtig oder falsch sind.",
+                "audio": {
+                    "title": "Radiointerview: Digitalisierung im Handwerk",
+                    "audio_notes": "Interview zwischen Moderator und Sam Jordan (Gründer einer Software-Firma für Handwerksbetriebe), informatives Gespräch über Praxiserfahrungen."
+                },
+                "transcript": "INTERVIEWER: Herzlich willkommen in unserem Magazin, Sam Jordan. Sie haben eine App entwickelt, die den Büroalltag auf dem Bau revolutionieren soll. Wie kam es eigentlich zu der Entscheidung, diesen Schritt in die Selbstständigkeit zu wagen?\nGUEST: Danke für die Einladung. Die Idee entstand eigentlich aus dem Frust heraus, den ich bei Praktika im Handwerk erlebt habe. Ich wollte das Projekt aber nicht im Alleingang durchziehen. Deshalb habe ich mich mit einem ehemaligen Studienkollegen zusammengesetzt und wir haben die Firma dann gemeinsam gegründet, da wir uns fachlich perfekt ergänzen.\nINTERVIEWER: Ein starkes Team ist oft die halbe Miete. Wenn man sich die Software nun ansieht: Für welche Art von Betrieben ist Ihre Lösung denn eigentlich gedacht?\nGUEST: Das ist ein wichtiger Punkt. Große Baukonzerne haben meist eigene IT-Abteilungen und teure Systeme. Unsere App ist hingegen ganz gezielt für die Bedürfnisse der Kleinen konzipiert, also explizit für Betriebe mit weniger als zehn Mitarbeitern. Dort fehlt oft die Zeit für komplexe Verwaltung, und genau da setzen wir an.\nINTERVIEWER: Baustellen sind ja oft Funklöcher. Wie geht die Technik damit um, wenn das Netz mal wieder komplett weg ist?\nGUEST: Das war eine Grundvoraussetzung bei der Entwicklung. Unsere App verfügt über eine spezielle Offline-Funktion, damit alle Daten auch im tiefsten Keller ohne Empfang problemlos gespeichert werden können. Sobald das Smartphone wieder eine Internetverbindung hat, werden die Einträge automatisch mit dem Server im Büro synchronisiert.\nINTERVIEWER: Wie hat denn die Belegschaft auf die Umstellung reagiert?\nGUEST: Das war tatsächlich ein Prozess. Besonders die langjährigen Mitarbeiter äußerten zu Beginn große Skepsis. Da gab es Ängste, dass alles komplizierter wird. Aber wir konnten diese Bedenken meist schnell zerstreuen, da das System sehr intuitiv ist. Eine Einführungsschulung dauert laut unserer Erfahrung lediglich einen Nachmittag, dann haben alle die Grundlagen verstanden.\nINTERVIEWER: Wie stellen Sie sicher, dass auch wirklich jeder mit der Oberfläche zurechtkommt?\nGUEST: Das Geheimnis liegt in der Reduktion. Um die Bedienung so barrierefrei wie möglich zu gestalten, setzt das Design unserer App primär auf selbsterklärende Icons statt auf komplizierte Textanweisungen. Ein Hammer-Symbol steht für die Baustellendokumentation, eine Uhr für die Zeiterfassung.\nGUEST: Wir haben durch das Feedback der Handwerker gelernt, dass Farben eine große Rolle spielen. Jetzt ist alles noch klarer strukturiert, und die Akzeptanz im Team ist mittlerweile enorm hoch, weil sie merken, wie viel Zeit sie am Feierabend sparen.\nINTERVIEWER: Hat sich die Investition für die Betriebe gelohnt? Sind zum Beispiel die Materialausgaben gestiegen?\nGUEST: Tatsächlich befürchten viele erst einmal höhere Ausgaben. Aber das Gegenteil ist der Fall: Durch die präzise digitale Erfassung und die bessere Planung konnte der Materialverschnitt und somit die Kosten deutlich gesenkt werden.\nINTERVIEWER: Wie wirkt sich das System auf die Kommunikation mit den Kunden aus?\nGUEST: Die Transparenz ist heute viel höher. Kunden erhalten nun Fotos vom Baufortschritt und detaillierte Statusberichte in Echtzeit direkt auf ihr Smartphone. Das schafft ein enormes Vertrauen.\nINTERVIEWER: Planen Sie, Ihre Softwarelösungen auch im Ausland anzubieten?\nGUEST: Das Interesse ist zwar groß, aber wir wollen nichts überstürzen. Momentan konzentrieren wir uns voll auf den deutschsprachigen Markt. Eine Expansion in das europäische Ausland ist ein festes Ziel, aber das ist erst in drei Jahren vorgesehen.\nINTERVIEWER: Was würden Sie Handwerksbetrieben raten, die noch am Anfang der Digitalisierung stehen?\nGUEST: Mein wichtigster Rat ist: Überfordern Sie sich und Ihre Belegschaft nicht. Man sollte auf keinen Fall versuchen, alle Prozesse gleichzeitig zu digitalisieren. Stattdessen rät unsere Firma dazu, mit der Zeiterfassung zu beginnen. Das ist ein überschaubarer erster Schritt, der sofort für Transparenz sorgt.",
+                "context": {
+                    "speaker": "Interviewer und Sam Jordan (Softwaregründer)",
+                    "replay_limit": 1
+                },
+                "statements": [
+                    {
+                        "id": "statement_1",
+                        "number": 1,
+                        "text": "Sam Jordan hat das Unternehmen ohne Partner ins Leben gerufen."
+                    },
+                    {
+                        "id": "statement_2",
+                        "number": 2,
+                        "text": "Die Anwendung wurde speziell für Betriebe mit einer geringen Mitarbeiterzahl entwickelt."
+                    },
+                    {
+                        "id": "statement_3",
+                        "number": 3,
+                        "text": "Die App ermöglicht die Dateneingabe auch an Orten ohne Internetverbindung."
+                    },
+                    {
+                        "id": "statement_4",
+                        "number": 4,
+                        "text": "Die erfahrenen Mitarbeiter im Team begrüßten die digitale Umstellung von Anfang an."
+                    },
+                    {
+                        "id": "statement_5",
+                        "number": 5,
+                        "text": "Das Erlernen der App-Bedienung nimmt mehrere Arbeitstage in Anspruch."
+                    },
+                    {
+                        "id": "statement_6",
+                        "number": 6,
+                        "text": "Die Benutzeroberfläche arbeitet zur Vereinfachung hauptsächlich mit Symbolen."
+                    },
+                    {
+                        "id": "statement_7",
+                        "number": 7,
+                        "text": "Der Einsatz der Software führte zu einer Erhöhung der Materialkosten."
+                    },
+                    {
+                        "id": "statement_8",
+                        "number": 8,
+                        "text": "Die Auftraggeber können den Fortschritt der Arbeiten zeitnah digital mitverfolgen."
+                    },
+                    {
+                        "id": "statement_9",
+                        "number": 9,
+                        "text": "Die Firma plant, ihr Angebot noch in diesem Jahr auf ganz Europa auszuweiten."
+                    },
+                    {
+                        "id": "statement_10",
+                        "number": 10,
+                        "text": "Sam Jordan empfiehlt, die Digitalisierung schrittweise mit der Erfassung der Arbeitszeit zu beginnen."
+                    }
+                ],
+                "correct": {
+                    "statement_1": "false",
+                    "statement_2": "true",
+                    "statement_3": "true",
+                    "statement_4": "false",
+                    "statement_5": "false",
+                    "statement_6": "true",
+                    "statement_7": "false",
+                    "statement_8": "true",
+                    "statement_9": "false",
+                    "statement_10": "true"
+                },
+                "explanation": {
+                    "statement_1": {
+                        "correct_answer": "false",
+                        "reason": "Das Unternehmen wurde gemeinsam mit einem ehemaligen Studienkollegen gegründet.",
+                        "evidence": "Ich wollte das Projekt nicht im Alleingang durchziehen. Wir haben die Firma gemeinsam gegründet.",
+                        "wrong_answer_reason": "Die Aussage behauptet das Gegenteil und ist falsch.",
+                        "strategy_hint": ""
+                    },
+                    "statement_2": {
+                        "correct_answer": "true",
+                        "reason": "Jordan bestätigt, dass die Software für kleine Handwerksbetriebe mit weniger als zehn Angestellten gemacht ist.",
+                        "evidence": "Unsere App ist ganz gezielt für Betriebe mit weniger als zehn Mitarbeitern konzipiert.",
+                        "wrong_answer_reason": "Die Aussage gibt die Zielgruppe korrekt wieder.",
+                        "strategy_hint": ""
+                    },
+                    "statement_3": {
+                        "correct_answer": "true",
+                        "reason": "Die App funktioniert dank einer Offline-Funktion auch dort, wo es kein Internet gibt.",
+                        "evidence": "alle Daten auch im tiefsten Keller ohne Empfang problemlos gespeichert werden können.",
+                        "wrong_answer_reason": "Die Aussage ist daher richtig.",
+                        "strategy_hint": ""
+                    },
+                    "statement_4": {
+                        "correct_answer": "false",
+                        "reason": "Langjährige Mitarbeiter waren anfangs skeptisch und nicht sofort begeistert.",
+                        "evidence": "Besonders die langjährigen Mitarbeiter äußerten zu Beginn große Skepsis.",
+                        "wrong_answer_reason": "Die Aussage behauptet das Gegenteil und ist falsch.",
+                        "strategy_hint": ""
+                    },
+                    "statement_5": {
+                        "correct_answer": "false",
+                        "reason": "Die Schulung dauert nur einen Nachmittag, nicht mehrere Tage.",
+                        "evidence": "Eine Einführungsschulung dauert laut unserer Erfahrung lediglich einen Nachmittag.",
+                        "wrong_answer_reason": "Die Aussage übertreibt die Dauer und ist daher falsch.",
+                        "strategy_hint": ""
+                    },
+                    "statement_6": {
+                        "correct_answer": "true",
+                        "reason": "Die App nutzt Symbole statt Text, um die Bedienung zu erleichtern.",
+                        "evidence": "das Design unserer App primär auf selbsterklärende Icons statt auf komplizierte Textanweisungen.",
+                        "wrong_answer_reason": "Die Aussage ist daher richtig.",
+                        "strategy_hint": ""
+                    },
+                    "statement_7": {
+                        "correct_answer": "false",
+                        "reason": "Die Kosten sanken durch die App, anstatt zu steigen.",
+                        "evidence": "konnte der Materialverschnitt und somit die Kosten deutlich gesenkt werden.",
+                        "wrong_answer_reason": "Die Aussage ist das Gegenteil der Wahrheit und daher falsch.",
+                        "strategy_hint": ""
+                    },
+                    "statement_8": {
+                        "correct_answer": "true",
+                        "reason": "Kunden können den Status ihrer Baustelle live über ihr Handy verfolgen.",
+                        "evidence": "Kunden erhalten nun Fotos vom Baufortschritt und detaillierte Statusberichte in Echtzeit.",
+                        "wrong_answer_reason": "Die Aussage stimmt mit der Information überein.",
+                        "strategy_hint": ""
+                    },
+                    "statement_9": {
+                        "correct_answer": "false",
+                        "reason": "Die Expansion ist erst für in drei Jahren geplant, nicht für das laufende Jahr.",
+                        "evidence": "Eine Expansion in das europäische Ausland ist erst in drei Jahren vorgesehen.",
+                        "wrong_answer_reason": "Die Aussage nennt einen falschen Zeitraum und ist daher falsch.",
+                        "strategy_hint": ""
+                    },
+                    "statement_10": {
+                        "correct_answer": "true",
+                        "reason": "Jordan empfiehlt ausdrücklich, die Zeiterfassung als ersten Schritt der Digitalisierung zu wählen.",
+                        "evidence": "Stattdessen rät unsere Firma dazu, mit der Zeiterfassung zu beginnen.",
+                        "wrong_answer_reason": "Die Aussage gibt den Rat korrekt wieder.",
+                        "strategy_hint": ""
+                    }
+                },
+                "format": "listening_long_true_false",
+                "source": {
+                    "label": "Internal Zertify seed set",
+                    "url": "",
+                    "notes": "AI-generated B2 Allgemein seed task."
+                }
+            },
+            "points": 1,
+            "order": 10,
+            "is_active": false,
+            "status": "draft",
+            "generation_mode": "manual",
+            "source_label": "Internal Zertify seed set",
+            "source_url": null,
+            "source_notes": "AI-generated B2 Allgemein seed task.",
+            "audio_source_type": null,
+            "audio_external_url": null,
+            "audio_voice_preset": "news_female",
+            "audio_style_preset": "clean",
+            "audio_asset": null
+        },
+        {
+            "seed_key": "hoeren-teil-3.reference.1",
+            "content_key": null,
+            "exam_slug": "telc-b2",
+            "module_slug": "hoeren-teil-3",
+            "topic": "Hören 3: Servicehinweise und Ankündigungen",
+            "format": "listening_short_true_false",
+            "difficulty": "medium",
+            "content": {
+                "instructions": "Sie hören fünf kurze Durchsagen und Nachrichten. Entscheiden Sie jeweils: richtig oder falsch.",
+                "audio": {
+                    "title": "Servicehinweise und Ankündigungen",
+                    "audio_notes": "Fünf kurze Durchsagen und Mitteilungen aus unterschiedlichen Kontexten."
+                },
+                "transcript": "Sehr geehrte Fahrgäste im ICE 782 nach Hamburg-Altona. Aufgrund eines technischen Defekts an der Klimaanlage mussten kurzfristig drei Wagen ausgetauscht werden. Bitte beachten Sie, dass sich dadurch die Wagenreihung geändert hat und alle Sitzplatzreservierungen für diesen Zug ihre Gültigkeit verlieren. Fahrgäste mit einer Reservierung wenden sich bitte nach der Ankunft am Zielort oder direkt hier am Bahnhof an den Service-Point, um eine Erstattung der Gebühren zu beantragen. — Willkommen bei Elbe-Touristik. Bitte beachten Sie, dass aufgrund der aktuell sehr hohen Nachfrage ein Ticketverkauf direkt am Anleger leider nicht mehr möglich ist. Reservierungen und Zahlungen müssen vorab ausschließlich über unser Online-Portal getätigt werden. — Hallo zusammen, hier ist euer Freizeit-Update für das kommende Wochenende! Bitte beachten Sie unbedingt: Da die Wege teilweise uneben sind, ist festes Schuhwerk sowie eine eigene, funktionstüchtige Taschenlampe für jeden Teilnehmer zwingend erforderlich. — Herzlich willkommen beim Fit-and-Fun Studio! Bitte beachten Sie jedoch: Dieses spezifische Spezial-Angebot gilt ausschließlich für ordentlich eingeschriebene Studierende, die das 26. Lebensjahr noch nicht vollendet haben. — Hallo, hier ist Katrin. Denk bitte daran, dass du deine Dateien bis spätestens Freitagmittag auf den gemeinsamen Server hochladen musst.",
+                "statements": [
+                    {
+                        "id": "statement_1",
+                        "number": 1,
+                        "text": "Fahrgäste erhalten am Service-Point Informationen zur Erstattung ihrer Reservierungsgebühren."
+                    },
+                    {
+                        "id": "statement_2",
+                        "number": 2,
+                        "text": "Tickets für die Hafenrundfahrt sind vor Ort am Anleger erhältlich."
+                    },
+                    {
+                        "id": "statement_3",
+                        "number": 3,
+                        "text": "Die Teilnehmer der Nachtwanderung sind verpflichtet, eine eigene Taschenlampe mitzuführen."
+                    },
+                    {
+                        "id": "statement_4",
+                        "number": 4,
+                        "text": "Alle Neukunden erhalten bei einer Anmeldung den Rabatt auf die Anmeldegebühr."
+                    },
+                    {
+                        "id": "statement_5",
+                        "number": 5,
+                        "text": "Die Unterlagen für das Projekt müssen spätestens am Freitagmittag vorliegen."
+                    }
+                ],
+                "correct": {
+                    "statement_1": "true",
+                    "statement_2": "false",
+                    "statement_3": "true",
+                    "statement_4": "false",
+                    "statement_5": "true"
+                },
+                "explanation": {
+                    "statement_1": {
+                        "correct_answer": "true",
+                        "reason": "Die Durchsage weist explizit darauf hin, dass Fahrgäste sich am Service-Point zwecks Gebührenerstattung melden sollen.",
+                        "evidence": "Fahrgäste wenden sich bitte an den Service-Point, um eine Erstattung der Gebühren zu beantragen.",
+                        "wrong_answer_reason": "Die Aussage gibt diesen Hinweis korrekt wieder.",
+                        "strategy_hint": ""
+                    },
+                    "statement_2": {
+                        "correct_answer": "false",
+                        "reason": "Die Durchsage stellt klar, dass ein Ticketverkauf am Anleger nicht mehr möglich ist.",
+                        "evidence": "ein Ticketverkauf direkt am Anleger leider nicht mehr möglich ist.",
+                        "wrong_answer_reason": "Die Aussage behauptet das Gegenteil und ist daher falsch.",
+                        "strategy_hint": ""
+                    },
+                    "statement_3": {
+                        "correct_answer": "true",
+                        "reason": "Es wird betont, dass eine eigene Taschenlampe für jeden Teilnehmer zwingend erforderlich ist.",
+                        "evidence": "eine eigene, funktionstüchtige Taschenlampe für jeden Teilnehmer zwingend erforderlich.",
+                        "wrong_answer_reason": "Die Aussage gibt diese Anforderung korrekt wieder.",
+                        "strategy_hint": ""
+                    },
+                    "statement_4": {
+                        "correct_answer": "false",
+                        "reason": "Das Angebot gilt laut Text ausschließlich für Studierende unter 26 Jahren, nicht für alle Neukunden.",
+                        "evidence": "Dieses Angebot gilt ausschließlich für ordentlich eingeschriebene Studierende, die das 26. Lebensjahr noch nicht vollendet haben.",
+                        "wrong_answer_reason": "Die Aussage verallgemeinert zu weit und ist daher falsch.",
+                        "strategy_hint": ""
+                    },
+                    "statement_5": {
+                        "correct_answer": "true",
+                        "reason": "Die Kollegin nennt Freitagmittag als den spätesten Zeitpunkt für den Upload der Dateien.",
+                        "evidence": "du deine Dateien bis spätestens Freitagmittag auf den gemeinsamen Server hochladen musst.",
+                        "wrong_answer_reason": "Die Aussage gibt die Deadline korrekt wieder.",
+                        "strategy_hint": ""
+                    }
+                },
+                "format": "listening_short_true_false",
+                "source": {
+                    "label": "Internal Zertify seed set",
+                    "url": "",
+                    "notes": "AI-generated B2 Allgemein seed task."
+                }
+            },
+            "points": 1,
+            "order": 10,
+            "is_active": false,
+            "status": "draft",
+            "generation_mode": "manual",
+            "source_label": "Internal Zertify seed set",
+            "source_url": null,
+            "source_notes": "AI-generated B2 Allgemein seed task.",
+            "audio_source_type": null,
+            "audio_external_url": null,
+            "audio_voice_preset": "news_female",
+            "audio_style_preset": "clean",
+            "audio_asset": null
+        }
+    ]
+}

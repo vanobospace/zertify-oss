@@ -1,0 +1,958 @@
+@import 'tailwindcss';
+
+@theme {
+    --font-sans: 'Source Sans 3 Variable', ui-sans-serif, system-ui, sans-serif;
+    --font-display: 'Manrope Variable', ui-sans-serif, system-ui, sans-serif;
+    --font-classic-body: 'Inter Variable', ui-sans-serif, system-ui, sans-serif;
+    --font-source-body: 'Source Sans 3 Variable', ui-sans-serif, system-ui, sans-serif;
+    --font-plex-body: 'IBM Plex Sans Variable', ui-sans-serif, system-ui, sans-serif;
+    --font-manrope-display: 'Manrope Variable', ui-sans-serif, system-ui, sans-serif;
+    --font-source-display: 'Source Sans 3 Variable', ui-sans-serif, system-ui, sans-serif;
+}
+
+@layer base {
+    :root {
+        --app-font-body: var(--font-source-body);
+        --app-font-display: var(--font-manrope-display);
+        --app-display-tracking: -0.04em;
+        --app-reading-size: 1.1rem;
+        --app-reading-leading: 1.74;
+        --app-reading-tracking: 0.002em;
+        --app-shell-sidebar-open: 14rem;
+        --app-shell-sidebar-collapsed: 4.75rem;
+        --shell-bg: #f4f6ff;
+        --shell-surface: #ffffff;
+        --shell-surface-muted: #f8f7f2;
+        --shell-surface-alt: #eaf1ff;
+        --shell-neutral-bar: #e6e9ef;
+        --shell-border: rgba(163, 174, 192, 0.18);
+        --shell-text: #252f3d;
+        --shell-muted: #525c6c;
+        --shell-body-text: #4b586a;
+        --shell-accent: #1b6937;
+        --shell-accent-soft: #a9f7b7;
+        --shell-secondary: #8c4a00;
+        --shell-secondary-soft: #ffc69a;
+        --shell-secondary-text: #532a00;
+        --shell-success: #ff9288;
+        --shell-success-text: #520c00;
+        --shell-highlight: #ffddd7;
+        --shell-icon-surface: #ffffff;
+        --shell-shadow: 0 18px 40px rgba(37, 47, 61, 0.07);
+        --tone-lesen-bg: #eaf1ff;
+        --tone-lesen-text: #21467f;
+        --tone-hoeren-bg: #f8e2bf;
+        --tone-hoeren-text: #6f3a00;
+        --tone-sprach-bg: #dcefdc;
+        --tone-sprach-text: #1c6144;
+        color-scheme: light;
+    }
+
+    html.dark,
+    body.dark,
+    html[data-theme='dark'],
+    body[data-theme='dark'] {
+        --shell-bg: #131b28;
+        --shell-surface: #202b3b;
+        --shell-surface-muted: #1b2533;
+        --shell-surface-alt: #2b394c;
+        --shell-neutral-bar: #4a5b74;
+        --shell-border: rgba(194, 204, 220, 0.24);
+        --shell-text: #f3f7ff;
+        --shell-muted: #bcc7d8;
+        --shell-body-text: #dde5f3;
+        --shell-accent: #56a062;
+        --shell-accent-soft: #b8e1be;
+        --shell-secondary: #d08a41;
+        --shell-secondary-soft: #f0bf87;
+        --shell-secondary-text: #402100;
+        --shell-success: #ff9288;
+        --shell-success-text: #4b1114;
+        --shell-highlight: #332a34;
+        --shell-icon-surface: #edf3ff;
+        --shell-shadow: 0 20px 48px rgba(3, 8, 20, 0.32);
+        --tone-lesen-bg: #3c5f96;
+        --tone-lesen-text: #f8fbff;
+        --tone-hoeren-bg: #9f662d;
+        --tone-hoeren-text: #fff9f1;
+        --tone-sprach-bg: #3d7b68;
+        --tone-sprach-text: #f3fffb;
+        color-scheme: dark;
+    }
+
+    html.light,
+    body.light,
+    html[data-theme='light'],
+    body[data-theme='light'] {
+        color-scheme: light;
+    }
+
+    @media (min-width: 1536px) {
+        :root {
+            --app-shell-sidebar-open: 16rem;
+            --app-shell-sidebar-collapsed: 5rem;
+        }
+    }
+
+    * {
+        box-sizing: border-box;
+    }
+
+    html[data-typography='classic'],
+    body[data-typography='classic'] {
+        --app-font-body: var(--font-classic-body);
+        --app-font-display: var(--font-manrope-display);
+        --app-display-tracking: -0.04em;
+        --app-reading-size: 1.1rem;
+        --app-reading-leading: 1.74;
+        --app-reading-tracking: 0.002em;
+    }
+
+    html[data-typography='source'],
+    body[data-typography='source'] {
+        --app-font-body: var(--font-source-body);
+        --app-font-display: var(--font-manrope-display);
+        --app-display-tracking: -0.04em;
+        --app-reading-size: 1.18rem;
+        --app-reading-leading: 1.76;
+        --app-reading-tracking: 0.002em;
+    }
+
+    html[data-typography='source-compact'],
+    body[data-typography='source-compact'] {
+        --app-font-body: var(--font-source-body);
+        --app-font-display: var(--font-manrope-display);
+        --app-display-tracking: -0.04em;
+        --app-reading-size: 1.12rem;
+        --app-reading-leading: 1.71;
+        --app-reading-tracking: 0.001em;
+    }
+
+    html[data-typography='plex'],
+    body[data-typography='plex'] {
+        --app-font-body: var(--font-plex-body);
+        --app-font-display: var(--font-manrope-display);
+        --app-display-tracking: -0.038em;
+        --app-reading-size: 1.12rem;
+        --app-reading-leading: 1.73;
+        --app-reading-tracking: 0;
+    }
+
+    html[data-typography='editorial'],
+    body[data-typography='editorial'] {
+        --app-font-body: var(--font-plex-body);
+        --app-font-display: var(--font-source-display);
+        --app-display-tracking: -0.028em;
+        --app-reading-size: 1.13rem;
+        --app-reading-leading: 1.74;
+        --app-reading-tracking: 0;
+    }
+
+    html[data-typography='unified'],
+    body[data-typography='unified'] {
+        --app-font-body: var(--font-source-body);
+        --app-font-display: var(--font-source-display);
+        --app-display-tracking: -0.025em;
+        --app-reading-size: 1.16rem;
+        --app-reading-leading: 1.75;
+        --app-reading-tracking: 0.001em;
+    }
+
+    html {
+        font-family: var(--app-font-body);
+        font-size: 16px;
+        background: var(--shell-bg);
+        color: var(--shell-text);
+        -webkit-text-size-adjust: 100%;
+        text-size-adjust: 100%;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        text-rendering: optimizeLegibility;
+        font-feature-settings: "kern" 1, "liga" 1, "calt" 1;
+    }
+
+    @media (min-width: 1280px) {
+        html {
+            font-size: 17px;
+        }
+    }
+
+    body {
+        margin: 0;
+        min-height: 100vh;
+        background:
+            radial-gradient(circle at top right, rgba(255, 146, 136, 0.08), transparent 22%),
+            radial-gradient(circle at top left, rgba(169, 247, 183, 0.1), transparent 18%),
+            var(--shell-bg);
+        color: var(--shell-text);
+        transition:
+            background-color 180ms ease,
+            color 180ms ease;
+    }
+
+    h1, h2, h3, h4 {
+        font-family: var(--app-font-display);
+        letter-spacing: var(--app-display-tracking);
+    }
+
+    a {
+        color: inherit;
+        text-decoration: none;
+    }
+}
+
+@utility shell-panel {
+    border: 1px solid var(--shell-border);
+    background: var(--shell-surface);
+    box-shadow: var(--shell-shadow);
+}
+
+@utility shell-card {
+    border: 1px solid var(--shell-border);
+    background: var(--shell-surface);
+    box-shadow: 0 8px 20px rgba(37, 47, 61, 0.03);
+}
+
+@utility shell-muted {
+    color: var(--shell-muted);
+}
+
+@layer components {
+    .app-kicker {
+        font-size: 0.72rem;
+        font-weight: 800;
+        letter-spacing: 0.24em;
+        text-transform: uppercase;
+        color: var(--shell-accent);
+    }
+
+    .app-label {
+        font-size: 0.74rem;
+        font-weight: 800;
+        letter-spacing: 0.18em;
+        text-transform: uppercase;
+        color: var(--shell-muted);
+    }
+
+    .app-input {
+        width: 100%;
+        border: 1px solid var(--shell-border);
+        border-radius: 0.5rem;
+        background: var(--shell-surface);
+        color: var(--shell-text);
+        padding: 0.95rem 1.2rem;
+        outline: none;
+        transition: border-color 140ms ease, box-shadow 140ms ease;
+    }
+
+    .app-input:focus {
+        border-color: var(--shell-accent);
+        box-shadow: 0 0 0 3px color-mix(in srgb, var(--shell-accent) 22%, transparent);
+    }
+
+    .app-btn-primary {
+        border: 1px solid var(--shell-accent);
+        border-radius: 0.5rem;
+        background: var(--shell-accent);
+        color: #ffffff;
+        font-weight: 700;
+        transition: opacity 140ms ease, transform 140ms ease;
+    }
+
+    .app-btn-primary:hover {
+        opacity: 0.92;
+    }
+
+    .app-btn-primary--reading-desktop {
+        border-radius: 9999px;
+        padding: 0.875rem 1.75rem;
+        font-size: 1rem;
+        font-weight: 800;
+    }
+
+    .app-btn-secondary {
+        border: 1px solid var(--shell-border);
+        border-radius: 0.5rem;
+        background: var(--shell-surface-alt);
+        color: var(--shell-text);
+        font-weight: 700;
+        transition: background-color 140ms ease;
+    }
+
+    .app-btn-secondary:hover {
+        background: var(--shell-surface);
+    }
+
+    .app-link-primary {
+        color: var(--shell-accent);
+        font-weight: 700;
+    }
+
+    .app-link-muted {
+        color: var(--shell-muted);
+        font-weight: 500;
+    }
+
+    .app-sidebar-shell--open {
+        width: var(--app-shell-sidebar-open);
+    }
+
+    .app-sidebar-shell--collapsed {
+        width: var(--app-shell-sidebar-collapsed);
+    }
+
+    .app-dashboard-modules-grid {
+        display: grid;
+        gap: 1rem;
+    }
+
+    @media (min-width: 1280px) {
+        .app-dashboard-modules-grid {
+            grid-template-columns: repeat(3, minmax(0, 1fr));
+            gap: 1.5rem;
+        }
+    }
+
+    .app-accent-reverse {
+        border: 1px solid color-mix(in srgb, var(--shell-accent) 26%, transparent);
+        background: var(--shell-accent);
+        color: #ffffff;
+        box-shadow: 0 14px 28px color-mix(in srgb, var(--shell-accent) 18%, transparent);
+    }
+
+    .app-accent-chip-reverse {
+        background: var(--shell-accent);
+        color: #ffffff;
+        box-shadow: 0 8px 18px color-mix(in srgb, var(--shell-accent) 18%, transparent);
+    }
+
+    .app-accent-soft {
+        border: 1px solid color-mix(in srgb, var(--shell-accent) 20%, transparent);
+        background: color-mix(in srgb, var(--shell-accent-soft) 14%, white);
+        color: var(--shell-accent);
+    }
+
+    .app-secondary-reverse {
+        border: 1px solid color-mix(in srgb, var(--shell-secondary) 26%, transparent);
+        background: var(--shell-secondary);
+        color: #ffffff;
+        box-shadow: 0 14px 28px color-mix(in srgb, var(--shell-secondary) 18%, transparent);
+    }
+
+    .app-fixed-soft-button {
+        border: 1px solid rgba(163, 174, 192, 0.28);
+        background: #f8f7f2;
+        color: #252f3d;
+        box-shadow: 0 14px 28px rgba(20, 20, 35, 0.08);
+    }
+
+    .app-secondary-soft-button {
+        border: 1px solid color-mix(in srgb, var(--shell-secondary) 18%, transparent);
+        background: color-mix(in srgb, var(--shell-secondary-soft) 64%, white);
+        color: var(--shell-secondary-text);
+        box-shadow: 0 14px 28px color-mix(in srgb, var(--shell-secondary) 10%, transparent);
+    }
+
+    .app-neutral-action-button {
+        border: 1px solid color-mix(in srgb, var(--shell-border) 96%, white 4%);
+        background: color-mix(in srgb, var(--shell-surface-alt) 72%, white);
+        color: color-mix(in srgb, var(--shell-text) 78%, var(--shell-muted));
+        box-shadow: 0 10px 22px rgba(20, 20, 35, 0.04);
+    }
+
+    .app-reading-text-card {
+        border: 1px solid color-mix(in srgb, var(--shell-border) 88%, transparent);
+        border-radius: 2rem;
+        background: var(--shell-surface);
+        padding: 1rem;
+        box-shadow: 0 12px 26px rgba(37, 47, 61, 0.05);
+        transition: border-color 150ms ease, box-shadow 150ms ease, background-color 150ms ease;
+    }
+
+    @media (min-width: 640px) {
+        .app-reading-text-card {
+            padding: 1.25rem;
+        }
+    }
+
+    .app-reading-text-card--active {
+        border-color: var(--shell-accent);
+        box-shadow: 0 18px 36px color-mix(in srgb, var(--shell-accent) 16%, transparent);
+    }
+
+    .app-reading-text-card__body {
+        color: var(--shell-body-text);
+    }
+
+    .app-body-copy {
+        color: var(--shell-body-text);
+        font-size: 0.98rem;
+        line-height: 1.68;
+        letter-spacing: 0.001em;
+    }
+
+    .app-reading-copy {
+        color: var(--shell-body-text);
+        font-size: var(--app-reading-size);
+        line-height: var(--app-reading-leading);
+        letter-spacing: var(--app-reading-tracking);
+    }
+
+    .app-ui-copy {
+        color: color-mix(in srgb, var(--shell-text) 86%, var(--shell-muted));
+        font-size: 0.9rem;
+        line-height: 1.55;
+        letter-spacing: 0;
+    }
+
+    @media (min-width: 1280px) {
+        .app-body-copy {
+            font-size: 1rem;
+            line-height: 1.72;
+        }
+
+        .app-ui-copy {
+            font-size: 0.94rem;
+            line-height: 1.58;
+        }
+    }
+
+    .app-reading-text-card__body--expanded {
+        color: inherit;
+        font-size: inherit;
+        line-height: inherit;
+        letter-spacing: inherit;
+    }
+
+    @media (min-width: 1280px) {
+        .app-reading-text-card__body--expanded {
+            line-height: calc(var(--app-reading-leading) + 0.04);
+        }
+    }
+
+    .app-typography-pill {
+        border: 1px solid var(--shell-border);
+        border-radius: 9999px;
+        background: var(--shell-surface);
+        color: var(--shell-muted);
+        font-size: 0.7rem;
+        font-weight: 800;
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+        transition: background-color 140ms ease, border-color 140ms ease, color 140ms ease, box-shadow 140ms ease;
+    }
+
+    .app-typography-pill:hover {
+        background: var(--shell-surface-alt);
+        color: var(--shell-text);
+    }
+
+    .app-typography-pill--active {
+        border-color: color-mix(in srgb, var(--shell-accent) 24%, transparent);
+        background: color-mix(in srgb, var(--shell-accent-soft) 16%, white);
+        color: var(--shell-accent);
+        box-shadow: 0 10px 22px color-mix(in srgb, var(--shell-accent) 10%, transparent);
+    }
+
+    .app-reading-chip {
+        border-radius: 9999px;
+        padding: 0.25rem 0.75rem;
+        font-size: 0.625rem;
+        font-weight: 900;
+        letter-spacing: 0.16em;
+        text-transform: uppercase;
+    }
+
+    .app-reading-chip--idle {
+        background: var(--shell-surface-alt);
+        color: var(--shell-muted);
+    }
+
+    .app-reading-chip--active {
+        display: grid;
+        width: 1.5rem;
+        height: 1.5rem;
+        place-items: center;
+        padding: 0;
+        letter-spacing: 0;
+        font-size: 0.625rem;
+        font-weight: 900;
+        background: var(--shell-accent);
+        color: #ffffff;
+        box-shadow: 0 8px 18px color-mix(in srgb, var(--shell-accent) 18%, transparent);
+    }
+
+    .app-reading-assigned-badge {
+        display: grid;
+        width: 1.5rem;
+        height: 1.5rem;
+        place-items: center;
+        border-radius: 9999px;
+        padding: 0;
+        background: var(--shell-secondary);
+        color: #ffffff;
+        font-size: 0.625rem;
+        font-weight: 900;
+    }
+
+    .app-reading-marker {
+        font-size: 0.875rem;
+        color: var(--shell-border);
+        transition: color 150ms ease;
+    }
+
+    .app-reading-marker--active {
+        color: var(--shell-accent);
+    }
+
+    .app-reading-situation-row {
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+        border: 1px solid color-mix(in srgb, var(--shell-border) 50%, transparent);
+        border-radius: 1.5rem;
+        padding: 0.9rem 1rem;
+        transition: border-color 150ms ease, background-color 150ms ease, box-shadow 150ms ease;
+    }
+
+    .app-reading-situation-row--active {
+        border-color: color-mix(in srgb, var(--shell-secondary) 34%, transparent);
+        background: color-mix(in srgb, var(--shell-secondary-soft) 30%, var(--shell-surface));
+        box-shadow: 0 12px 26px color-mix(in srgb, var(--shell-secondary) 14%, transparent);
+    }
+
+    .app-reading-situation-row--idle:hover {
+        border-color: color-mix(in srgb, var(--shell-border) 72%, transparent);
+        background: color-mix(in srgb, var(--shell-surface-alt) 82%, white);
+    }
+
+    .app-reading-situation-text {
+        font-size: 1rem;
+        line-height: 2.05rem;
+    }
+
+    @media (min-width: 1280px) {
+        .app-reading-situation-text {
+            font-size: 1.04rem;
+            line-height: 2.1rem;
+        }
+    }
+
+    .app-reading-situation-text--active {
+        font-weight: 600;
+        color: var(--shell-text);
+    }
+
+    .app-reading-situation-text--idle {
+        font-weight: 500;
+        color: color-mix(in srgb, var(--shell-text) 92%, var(--shell-muted));
+    }
+
+    .app-reading-situation-badge {
+        display: grid;
+        width: 2.5rem;
+        height: 2.5rem;
+        flex-shrink: 0;
+        place-items: center;
+        border-radius: 9999px;
+        font-size: 0.875rem;
+        font-weight: 900;
+        transition: border-color 150ms ease, background-color 150ms ease, color 150ms ease;
+    }
+
+    .app-reading-situation-badge--active {
+        background: var(--shell-secondary);
+        color: #fff6ef;
+    }
+
+    .app-reading-situation-badge--answered {
+        background: #ffffff;
+        color: var(--shell-accent);
+    }
+
+    .app-reading-situation-badge--neutral {
+        border: 1px solid color-mix(in srgb, var(--shell-border) 96%, white 4%);
+        background: color-mix(in srgb, var(--shell-surface-alt) 72%, white);
+        color: var(--shell-muted);
+    }
+
+    .group:hover .app-reading-situation-badge--neutral {
+        border-color: color-mix(in srgb, var(--shell-border) 84%, transparent);
+        background: var(--shell-surface-muted);
+        color: var(--shell-text);
+    }
+
+    .app-reading-choice-button {
+        display: inline-flex;
+        min-width: 9.5rem;
+        align-items: center;
+        justify-content: center;
+        gap: 0.5rem;
+        border-radius: 9999px;
+        padding: 0.5rem 1rem;
+        font-size: 0.75rem;
+        font-weight: 900;
+        transition: border-color 150ms ease, background-color 150ms ease, color 150ms ease, box-shadow 150ms ease;
+    }
+
+    .app-reading-choice-button--desktop {
+        min-width: 6.75rem;
+        padding: 0.425rem 0.8rem;
+        font-size: 0.68rem;
+        font-weight: 800;
+        box-shadow: none;
+    }
+
+    .app-reading-choice-button--fixed {
+        border: 1px solid color-mix(in srgb, var(--shell-secondary) 22%, transparent);
+        background: color-mix(in srgb, var(--shell-surface) 94%, var(--shell-secondary-soft));
+        color: color-mix(in srgb, var(--shell-text) 84%, var(--shell-secondary));
+        box-shadow: 0 10px 22px color-mix(in srgb, var(--shell-secondary) 8%, transparent);
+    }
+
+    .app-reading-choice-button--assigned {
+        border: 1px solid color-mix(in srgb, var(--shell-accent) 16%, transparent);
+        background: color-mix(in srgb, var(--shell-accent-soft) 10%, white);
+        color: var(--shell-accent);
+    }
+
+    .app-reading-choice-button--neutral {
+        border: 1px solid color-mix(in srgb, var(--shell-border) 84%, transparent);
+        background: color-mix(in srgb, var(--shell-surface-alt) 52%, transparent);
+        color: color-mix(in srgb, var(--shell-text) 72%, var(--shell-muted));
+        box-shadow: none;
+    }
+
+    .group:hover .app-reading-choice-button--neutral {
+        border-color: color-mix(in srgb, var(--shell-border) 84%, transparent);
+        background: color-mix(in srgb, var(--shell-surface-muted) 70%, transparent);
+        color: color-mix(in srgb, var(--shell-text) 92%, var(--shell-muted));
+    }
+
+    .app-reading-choice-button--secondary-soft {
+        border: 1px solid color-mix(in srgb, var(--shell-secondary) 18%, transparent);
+        background: color-mix(in srgb, var(--shell-secondary-soft) 64%, white);
+        color: var(--shell-secondary-text);
+        box-shadow: 0 14px 28px color-mix(in srgb, var(--shell-secondary) 10%, transparent);
+    }
+
+    .app-reading-choice-button--success {
+        border: 1px solid color-mix(in srgb, var(--shell-accent) 24%, transparent);
+        background: var(--shell-accent);
+        color: #ffffff;
+        box-shadow: 0 14px 28px color-mix(in srgb, var(--shell-accent) 18%, transparent);
+    }
+
+    .app-reading-choice-button--cancel {
+        border: 1px solid color-mix(in srgb, var(--shell-secondary) 26%, transparent);
+        background: color-mix(in srgb, var(--shell-secondary-soft) 24%, white);
+        color: var(--shell-secondary-text);
+        box-shadow: 0 8px 18px color-mix(in srgb, var(--shell-secondary) 12%, transparent);
+    }
+
+    .app-reading-choice-button--canceled {
+        border: 1px solid color-mix(in srgb, var(--shell-success) 26%, transparent);
+        background: color-mix(in srgb, var(--shell-highlight) 78%, white);
+        color: var(--shell-success-text);
+        box-shadow: 0 10px 22px color-mix(in srgb, var(--shell-success) 12%, transparent);
+    }
+
+    .app-reading-selection-badge {
+        display: grid;
+        width: 1.75rem;
+        height: 1.75rem;
+        place-items: center;
+        border-radius: 9999px;
+        font-size: 0.6875rem;
+        font-weight: 900;
+        text-transform: uppercase;
+    }
+
+    .app-reading-selection-badge--accent {
+        border: 1px solid color-mix(in srgb, var(--shell-accent) 24%, transparent);
+        background: color-mix(in srgb, var(--shell-accent) 14%, white);
+        color: var(--shell-accent);
+    }
+
+    .app-interactive {
+        transition: transform 150ms ease, box-shadow 150ms ease, filter 150ms ease;
+    }
+
+    .app-interactive:hover {
+        transform: translateY(-1px);
+    }
+
+    .app-interactive:active {
+        transform: translateY(0) scale(0.98);
+    }
+
+    .app-popover {
+        transform-origin: bottom left;
+        animation: app-popover-in 140ms ease-out;
+    }
+
+    .app-neutral-bar {
+        background: var(--shell-neutral-bar);
+    }
+
+    .app-frost-panel {
+        border: 1px solid color-mix(in srgb, var(--shell-border) 78%, transparent);
+        background: color-mix(in srgb, var(--shell-surface) 88%, transparent);
+        box-shadow: var(--shell-shadow);
+        backdrop-filter: blur(14px);
+    }
+
+    .app-secondary-panel {
+        border: 1px solid color-mix(in srgb, var(--shell-secondary) 22%, transparent);
+        background: var(--shell-secondary);
+        color: #fff0e7;
+        box-shadow: 0 18px 40px color-mix(in srgb, var(--shell-secondary) 24%, transparent);
+    }
+
+    .app-secondary-panel__button {
+        border: 1px solid color-mix(in srgb, var(--shell-surface) 75%, transparent);
+        background: var(--shell-surface);
+        color: var(--shell-secondary);
+    }
+
+    .app-streak-panel {
+        border: 1px solid color-mix(in srgb, var(--shell-success) 36%, var(--shell-border));
+        background: var(--shell-success);
+        color: var(--shell-success-text);
+        box-shadow: 0 18px 36px color-mix(in srgb, var(--shell-success) 22%, transparent);
+    }
+
+    .app-icon-tile {
+        background: var(--shell-icon-surface);
+        box-shadow: 0 8px 20px rgba(37, 47, 61, 0.06);
+    }
+
+    .app-soft-card {
+        border: 1px solid color-mix(in srgb, var(--shell-border) 80%, transparent);
+        background: color-mix(in srgb, var(--shell-surface-alt) 88%, var(--shell-surface));
+        box-shadow: 0 12px 28px rgba(37, 47, 61, 0.04);
+    }
+
+    .app-tone-card {
+        border: 1px solid color-mix(in srgb, var(--shell-border) 80%, transparent);
+        background: color-mix(in srgb, var(--tone-lesen-bg) 34%, var(--shell-surface));
+        --app-tone-title-color: color-mix(in srgb, currentColor 90%, #0b1220 10%);
+        --app-tone-body-color: color-mix(in srgb, currentColor 78%, #0b1220 22%);
+        --app-tone-label-color: color-mix(in srgb, currentColor 70%, #0b1220 30%);
+        --shell-text: var(--app-tone-title-color);
+        --shell-muted: var(--app-tone-body-color);
+    }
+
+    .app-tone-card__label {
+        font-size: 0.78rem;
+        font-weight: 800;
+        letter-spacing: 0.18em;
+        text-transform: uppercase;
+        color: var(--app-tone-label-color);
+    }
+
+    .app-tone-card__title {
+        color: var(--app-tone-title-color);
+    }
+
+    .app-tone-card__body {
+        color: var(--app-tone-body-color);
+    }
+
+    .app-tone-card--lesen {
+        background: var(--tone-lesen-bg);
+        color: var(--tone-lesen-text);
+    }
+
+    .app-tone-card--hoeren {
+        background: var(--tone-hoeren-bg);
+        color: var(--tone-hoeren-text);
+    }
+
+    .app-tone-card--sprach {
+        background: var(--tone-sprach-bg);
+        color: var(--tone-sprach-text);
+    }
+
+    .app-tone-card__button {
+        border: 1px solid color-mix(in srgb, var(--shell-border) 70%, transparent);
+        background: color-mix(in srgb, var(--shell-surface) 94%, white);
+        color: var(--shell-text);
+    }
+
+    .app-roadmap-chip {
+        border: 1px solid transparent;
+    }
+
+    .app-roadmap-chip--one {
+        background: var(--tone-lesen-bg);
+        color: color-mix(in srgb, var(--tone-lesen-text) 90%, #0f172a);
+    }
+
+    .app-roadmap-chip--two {
+        background: var(--tone-hoeren-bg);
+        color: color-mix(in srgb, var(--tone-hoeren-text) 90%, #0f172a);
+    }
+
+    .app-roadmap-chip--three {
+        background: var(--tone-sprach-bg);
+        color: color-mix(in srgb, var(--tone-sprach-text) 90%, #0f172a);
+    }
+
+    .app-highlight-term {
+        border-radius: 0.25rem;
+        background: color-mix(in srgb, #ff9288 78%, white);
+        color: #520c00;
+        padding: 0.06rem 0.35rem;
+        font-weight: 700;
+    }
+
+    html.dark .app-kicker,
+    body.dark .app-kicker,
+    html[data-theme='dark'] .app-kicker,
+    body[data-theme='dark'] .app-kicker {
+        color: var(--shell-accent);
+    }
+
+    html.dark .app-link-primary,
+    body.dark .app-link-primary,
+    html[data-theme='dark'] .app-link-primary,
+    body[data-theme='dark'] .app-link-primary {
+        color: var(--shell-accent);
+    }
+
+    html.dark .app-neutral-bar,
+    body.dark .app-neutral-bar,
+    html[data-theme='dark'] .app-neutral-bar,
+    body[data-theme='dark'] .app-neutral-bar {
+        background: var(--shell-neutral-bar);
+    }
+
+    html.dark .app-frost-panel,
+    body.dark .app-frost-panel,
+    html[data-theme='dark'] .app-frost-panel,
+    body[data-theme='dark'] .app-frost-panel {
+        border-color: color-mix(in srgb, var(--shell-border) 90%, transparent);
+        background: color-mix(in srgb, var(--shell-surface) 92%, transparent);
+        box-shadow: 0 20px 48px rgba(3, 8, 20, 0.34);
+    }
+
+    html.dark .app-secondary-panel,
+    body.dark .app-secondary-panel,
+    html[data-theme='dark'] .app-secondary-panel,
+    body[data-theme='dark'] .app-secondary-panel {
+        border-color: color-mix(in srgb, var(--shell-secondary) 32%, transparent);
+        box-shadow: 0 22px 52px color-mix(in srgb, var(--shell-secondary) 20%, transparent);
+    }
+
+    html.dark .app-secondary-panel__button,
+    body.dark .app-secondary-panel__button,
+    html[data-theme='dark'] .app-secondary-panel__button,
+    body[data-theme='dark'] .app-secondary-panel__button {
+        border-color: rgba(255, 255, 255, 0.16);
+        background: color-mix(in srgb, var(--shell-surface) 96%, white 4%);
+        color: var(--shell-secondary);
+    }
+
+    html.dark .app-icon-tile,
+    body.dark .app-icon-tile,
+    html[data-theme='dark'] .app-icon-tile,
+    body[data-theme='dark'] .app-icon-tile {
+        box-shadow: 0 10px 24px rgba(3, 8, 20, 0.24);
+    }
+
+    html.dark .app-tone-card,
+    body.dark .app-tone-card,
+    html[data-theme='dark'] .app-tone-card,
+    body[data-theme='dark'] .app-tone-card {
+        border-color: color-mix(in srgb, var(--shell-border) 90%, transparent);
+        --app-tone-title-color: color-mix(in srgb, currentColor 95%, #ffffff 5%);
+        --app-tone-body-color: color-mix(in srgb, currentColor 84%, #ffffff 16%);
+        --app-tone-label-color: color-mix(in srgb, currentColor 72%, #ffffff 28%);
+        --shell-text: var(--app-tone-title-color);
+        --shell-muted: var(--app-tone-body-color);
+    }
+
+    html.dark .app-tone-card__label,
+    body.dark .app-tone-card__label,
+    html[data-theme='dark'] .app-tone-card__label,
+    body[data-theme='dark'] .app-tone-card__label {
+        color: var(--app-tone-label-color);
+    }
+
+    html.dark .app-tone-card__title,
+    body.dark .app-tone-card__title,
+    html[data-theme='dark'] .app-tone-card__title,
+    body[data-theme='dark'] .app-tone-card__title {
+        color: var(--app-tone-title-color);
+    }
+
+    html.dark .app-tone-card__body,
+    body.dark .app-tone-card__body,
+    html[data-theme='dark'] .app-tone-card__body,
+    body[data-theme='dark'] .app-tone-card__body {
+        color: var(--app-tone-body-color);
+    }
+
+    html.dark .app-tone-card__button,
+    body.dark .app-tone-card__button,
+    html[data-theme='dark'] .app-tone-card__button,
+    body[data-theme='dark'] .app-tone-card__button {
+        border-color: rgba(255, 255, 255, 0.25);
+        background: rgba(255, 255, 255, 0.22);
+        color: #f8fbff;
+    }
+
+    html.dark .app-roadmap-chip,
+    body.dark .app-roadmap-chip,
+    html[data-theme='dark'] .app-roadmap-chip,
+    body[data-theme='dark'] .app-roadmap-chip {
+        color: #f8fbff;
+    }
+
+    html.dark .app-roadmap-chip--one,
+    body.dark .app-roadmap-chip--one,
+    html[data-theme='dark'] .app-roadmap-chip--one,
+    body[data-theme='dark'] .app-roadmap-chip--one,
+    html.dark .app-roadmap-chip--two,
+    body.dark .app-roadmap-chip--two,
+    html[data-theme='dark'] .app-roadmap-chip--two,
+    body[data-theme='dark'] .app-roadmap-chip--two,
+    html.dark .app-roadmap-chip--three,
+    body.dark .app-roadmap-chip--three,
+    html[data-theme='dark'] .app-roadmap-chip--three,
+    body[data-theme='dark'] .app-roadmap-chip--three {
+        border-color: color-mix(in srgb, var(--shell-border) 90%, transparent);
+    }
+
+    html.dark .app-highlight-term,
+    body.dark .app-highlight-term,
+    html[data-theme='dark'] .app-highlight-term,
+    body[data-theme='dark'] .app-highlight-term {
+        background: #ff9288;
+        color: #520c00;
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+        .app-interactive {
+            transition: none;
+        }
+
+        .app-popover {
+            animation: none;
+        }
+
+    }
+}
+
+@keyframes app-popover-in {
+    from {
+        opacity: 0;
+        transform: translateY(6px) scale(0.98);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0) scale(1);
+    }
+}
